@@ -1,0 +1,311 @@
+/*
+ *  調理レシピサイト用CSS
+ */
+
+/* 基本設定 */
+
+html {
+	overflow-y	  :scroll;
+}
+
+body {
+	background-color: #FFFFFF;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+hr {
+	border-width	: 1px 0px 0px 0px;
+	border-style	: dashed;
+	border-color	: #AABBFF;
+	height			: 1px;
+	margin-right	: 0px;
+	margin-left		: 0px;
+	margin-bottom	: 5px;
+	margin-top		: 5px;
+}
+
+h1 {
+	height				: 40px;
+	margin				: 0px 0px 0px 0px;
+	padding				: 0px 10px 0px 0px;
+
+	background-image	: url("./sora.png");
+	background-position	: left top;
+	background-repeat	: repeat-x;
+
+	text-align			: right;
+	background-color	: #8080FF;
+}
+
+h2 {
+	font-size		: medium;
+
+	border-left		: #FFC0C0 4px solid;
+	border-top		: #AABBFF 0px solid;
+	border-right	: #AABBFF 1px solid;
+	border-bottom	: #AABBFF 1px solid;
+
+	padding-top		: 4px;
+	padding-bottom	: 4px;
+	padding-left	: 4px;
+	padding-right	: 0px;
+
+	margin-top		: 2px;
+	margin-bottom	: 2px;
+	margin-left		: 0px;
+	margin-right	: 0px;
+
+	background-color	: #AACCFF;
+}
+
+h3 {
+	font-size		: medium;
+
+	border-left		: #FFC0C0 4px solid;
+	border-top		: #CCDDFF 0px solid;
+	border-right	: #AAAAFF 1px solid;
+	border-bottom	: #AAAAFF 1px solid;
+
+	padding-top		: 4px;
+	padding-bottom	: 4px;
+	padding-left	: 4px;
+	padding-right	: 0px;
+
+	margin-top		: 2px;
+	margin-bottom	: 2px;
+	margin-left		: 0px;
+	margin-right	: 0px;
+
+	background: #D9D9F3;
+}
+
+h4 {
+	float			: left;
+	font-size		: medium;
+	border-left		: #FF8080 4px solid;
+	border-top		: 0px;
+	border-right	: 0px;
+	border-bottom	: 0px;
+
+	padding-top		: 4px;
+	padding-bottom	: 4px;
+	padding-left	: 4px;
+	padding-right	: 4px;
+
+	margin-top		: 2px;
+	margin-bottom	: 2px;
+	margin-left		: 0px;
+	margin-right	: 0px;
+}
+
+h5 {
+	font-size		: small;
+	color			: #8888AA;
+	border-left		: #FFC0C0 4px solid;
+	border-top		: 0px;
+	border-right	: 0px;
+	border-bottom	: 0px;
+
+	padding-top		: 0px;
+	padding-bottom	: 0px;
+	padding-left	: 4px;
+	padding-right	: 4px;
+
+	margin-left		: 0px;
+	margin-right	: 0px;
+	margin-bottom	: 2px;
+	margin-top		: 2px;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+img.Icon {
+	width	: 48px;
+	height	: 48px;
+}
+
+input {
+	vertical-align: middle;
+	margin: 1px;
+	padding: 1px;
+}
+
+input[type="button"], input[type="submit"]{
+	margin: 1px;
+	padding: 3px;
+	border-width: 1px; 
+/*	border-style: ridge; */
+}
+
+/* input[type="button"]:hover, input[type="submit"]:hover{
+	border-style: groove;
+}
+*/
+
+input[type="button"].clear {
+	width:10%;
+	background-color: #F8F8F8;
+	border-style: none;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type="button"].clear:hover {
+	background-color: #F0E0E0;
+}
+
+/* Table周り */
+
+table {
+	clear			: both;
+	width			: 100%; 
+
+	font-size		: small;
+
+	empty-cells		: show;
+	border-collapse	: separate;
+	border-spacing	: 2px;
+	word-wrap		: break-word;
+
+	border-top		: 0px;
+	border-bottom	: solid 1px #B2B2B2;
+	border-left		: 0px;
+	border-right	: solid 1px #B2B2B2;
+
+	margin: 0px;
+
+}
+
+table td.BinderName,
+table td.RecipeName,
+table td.FinishName,
+table td.Material
+table td.Etc {
+	text-align	: left;
+}
+
+table th {
+	font-weight		: bold;
+	line-height		: 120%;
+	text-align		: center;
+
+	padding			: 2px;
+
+	border-top		: 0px;
+	border-bottom	: solid 1px #B2B2B2;
+	border-left		: 0px;
+	border-right	: solid 1px #B2B2B2;
+ 
+	background		: #D9D9F3;
+}
+
+table td {
+	padding			: 2px;
+
+	border-top		: 0px;
+	border-bottom	: solid 1px #B2B2B2;
+	border-left		: 0px;
+	border-right	: solid 1px #B2B2B2;
+
+	background: #F3F3F3;
+}
+
+table td.Icon {
+	text-align	: center;
+	margin: 0px;
+	width: 48px;
+}
+
+table td.Rank,
+table td.Volume,
+table td.Recovery,
+table td.Fatigue {
+	text-align	: center;
+}
+
+div.Recipe{
+	margin			: 1px 0px 0px auto;
+	padding			: 1px 1px 1px 0px;
+
+	border-top		: 0px;
+	border-bottom	: 0px;
+	border-left		: #FFC0C0 4px solid;
+	border-right	: 0px;
+}
+
+div.Sidebar{
+	margin			: 2px 0px 2px 0px;
+	padding			: 2px 0px 2px 2px;
+
+	border-top		: 0px;
+	border-bottom	: 0px;
+	border-left		: 0px;
+	border-right	: 0px;
+}
+
+/* Class回り */
+
+#wrap {
+	width	: 100%;
+	margin	: 0px;
+	padding	: 0px;
+}
+
+#phone {
+	width	: 100%;
+	margin	: 0px;
+    padding	: 0px;
+}
+
+#main {
+	float	: left;
+	width	: 79%;
+	margin	: 0px auto 0px auto;
+    padding	: 0px;
+}
+
+#sidebar {
+	float	: left;
+	width	: 20%;
+	margin	: 1px;
+    padding	: 1px;
+}
+
+#Brows {
+	text-align:center;
+	font-size:large;
+	color			: #808080;
+	font-style		: italic;
+	margin	: 16px;
+}
+
+#footer {
+	clear:both;
+	width			: 99%;
+	text-align		: right;
+	color			: #808080;
+	font-style		: italic;
+	margin	: 0px;
+}
+
+#h4-right {
+	color			: green;
+	font-size		: small;
+
+	padding-top		: 8px;
+	padding-bottom	: 0px;
+	padding-left	: 0px;
+	padding-right	: 0px;
+
+	margin-top		: 2px;
+	margin-bottom	: 2px;
+	margin-left		: 0px;
+	margin-right	: 0px;
+}
+
