@@ -1,11 +1,7 @@
-/*
- *  調理レシピサイト用CSS
- */
-
 /* 基本設定 */
 
 html {
-	overflow-y	  :scroll;
+	overflow-y: scroll;
 }
 
 body {
@@ -15,118 +11,73 @@ body {
 	padding: 0px;
 }
 
-hr {
-	border-width	: 1px 0px 0px 0px;
-	border-style	: dashed;
-	border-color	: #AABBFF;
-	height			: 1px;
-	margin-right	: 0px;
-	margin-left		: 0px;
-	margin-bottom	: 5px;
-	margin-top		: 5px;
+header {
+	align-items: center;
+	background-color: #6cbdff;
+	background-image: url("./image/sora.jpg");
+	padding: 2px 4px;
+	margin: 0px;
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+	height: calc(82px - 8px);
+	width: calc(100% - 8px);
 }
 
-h1 {
-	height				: 40px;
-	margin				: 0px 0px 0px 0px;
-	padding				: 0px 10px 0px 0px;
+article {
+	width: 100%;
+	max-width: 900px;
+	padding: 0px;
+	margin: 82px auto 0px auto;
+}
 
-	background-image	: url("./sora.png");
-	background-position	: left top;
-	background-repeat	: repeat-x;
-
-	text-align			: right;
-	background-color	: #8080FF;
+footer {
+	margin: 4px 2px 24px 2px;
+	padding: 2px 6px;
+	width: calc(100% - 14px);
+	text-align: right;
+	font-size: 12px;
+	color: rgb(31, 31, 31);
+	display: block;
 }
 
 h2 {
-	font-size		: medium;
-
-	border-left		: #FFC0C0 4px solid;
-	border-top		: #AABBFF 0px solid;
-	border-right	: #AABBFF 1px solid;
-	border-bottom	: #AABBFF 1px solid;
-
-	padding-top		: 4px;
-	padding-bottom	: 4px;
-	padding-left	: 4px;
-	padding-right	: 0px;
-
-	margin-top		: 2px;
-	margin-bottom	: 2px;
-	margin-left		: 0px;
-	margin-right	: 0px;
-
-	background-color	: #AACCFF;
+	font-size: 16px;
+	border-left: #FF8080 4px solid;
+	border-top: #AABBFF 0px solid;
+	border-right: #AABBFF 1px solid;
+	border-bottom: #AABBFF 1px solid;
+	padding: 2px 4px;
+	margin: 2px 4px 2px 4px;
+	background-color: #AACCFF;
 }
 
 h3 {
-	font-size		: medium;
-
-	border-left		: #FFC0C0 4px solid;
-	border-top		: #CCDDFF 0px solid;
-	border-right	: #AAAAFF 1px solid;
-	border-bottom	: #AAAAFF 1px solid;
-
-	padding-top		: 4px;
-	padding-bottom	: 4px;
-	padding-left	: 4px;
-	padding-right	: 0px;
-
-	margin-top		: 2px;
-	margin-bottom	: 2px;
-	margin-left		: 0px;
-	margin-right	: 0px;
-
-	background: #D9D9F3;
+	font-size: 16px;
+	border-left: #FF8080 4px solid;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	padding: 2px 4px;
+	margin: 2px 4px 2px 4px;
 }
 
-h4 {
-	float			: left;
-	font-size		: medium;
-	border-left		: #FF8080 4px solid;
-	border-top		: 0px;
-	border-right	: 0px;
-	border-bottom	: 0px;
-
-	padding-top		: 4px;
-	padding-bottom	: 4px;
-	padding-left	: 4px;
-	padding-right	: 4px;
-
-	margin-top		: 2px;
-	margin-bottom	: 2px;
-	margin-left		: 0px;
-	margin-right	: 0px;
+hr {
+	border-width: 1px 0px 0px 0px;
+	border-style: dashed;
+	border-color: #AABBFF;
+	height: 1px;
+	margin: 10px 2px;
 }
 
-h5 {
-	font-size		: small;
-	color			: #8888AA;
-	border-left		: #FFC0C0 4px solid;
-	border-top		: 0px;
-	border-right	: 0px;
-	border-bottom	: 0px;
-
-	padding-top		: 0px;
-	padding-bottom	: 0px;
-	padding-left	: 4px;
-	padding-right	: 4px;
-
-	margin-left		: 0px;
-	margin-right	: 0px;
-	margin-bottom	: 2px;
-	margin-top		: 2px;
-}
-
-form {
-	margin: 0px;
-	padding: 0px;
+img.logo {
+	margin: 2px;
+	width: 200px;
 }
 
 img.Icon {
-	width	: 48px;
-	height	: 48px;
+	width: 48px;
+	height: 48px;
 }
 
 input {
@@ -135,177 +86,145 @@ input {
 	padding: 1px;
 }
 
-input[type="button"], input[type="submit"]{
-	margin: 1px;
-	padding: 3px;
-	border-width: 1px; 
-/*	border-style: ridge; */
+a {
+	cursor: pointer;
+	color: #474fb3;
+	font-weight: bold;
+	text-decoration: none;
 }
 
-/* input[type="button"]:hover, input[type="submit"]:hover{
-	border-style: groove;
-}
-*/
-
-input[type="button"].clear {
-	width:10%;
-	background-color: #F8F8F8;
-	border-style: none;
-	border-width: 0px;
-	margin: 0px;
-	padding: 0px;
-}
-
-input[type="button"].clear:hover {
-	background-color: #F0E0E0;
+a:hover, a:active {
+	color: #656ffc;
+	text-decoration: underline;
 }
 
 /* Table周り */
 
 table {
-	clear			: both;
-	width			: 100%; 
-
-	font-size		: small;
-
-	empty-cells		: show;
-	border-collapse	: separate;
-	border-spacing	: 2px;
-	word-wrap		: break-word;
-
-	border-top		: 0px;
-	border-bottom	: solid 1px #B2B2B2;
-	border-left		: 0px;
-	border-right	: solid 1px #B2B2B2;
-
-	margin: 0px;
-
-}
-
-table td.BinderName,
-table td.RecipeName,
-table td.FinishName,
-table td.Material
-table td.Etc {
-	text-align	: left;
+	table-layout: fixed;
+	width: calc(100% - 5px);
+	font-size: 14px;
+	empty-cells: show;
+	border: 0px;
+	margin: 2px;
+	background: rgb(243, 243, 243);
+	border: solid 2px rgb(201, 201, 201);
+	border-collapse: collapse;
 }
 
 table th {
-	font-weight		: bold;
-	line-height		: 120%;
-	text-align		: center;
+	font-weight: bold;
+	line-height: 120%;
+	text-align: center;
+	word-break: keep-all;
+	padding: 2px;
+	background: rgb(230, 230, 238);
+	border: solid 2px rgb(201, 201, 201);
+}
 
-	padding			: 2px;
+table col.s10 {
+	width: 10%;
+}
 
-	border-top		: 0px;
-	border-bottom	: solid 1px #B2B2B2;
-	border-left		: 0px;
-	border-right	: solid 1px #B2B2B2;
- 
-	background		: #D9D9F3;
+table col.s15 {
+	width: 15%;
+}
+
+table col.s20 {
+	width: 20%;
+}
+
+table col.s30 {
+	width: 30%;
+}
+
+table col.s40 {
+	width: 40%;
+}
+
+table col.s50 {
+	width: 50%;
+}
+
+table col.s55 {
+	width: 55%;
+}
+
+table col.s60 {
+	width: 60%;
+}
+
+table col.s70 {
+	width: 70%;
+}
+
+table col.s80 {
+	width: 80%;
+}
+
+table col.s90 {
+	width: 90%;
 }
 
 table td {
-	padding			: 2px;
-
-	border-top		: 0px;
-	border-bottom	: solid 1px #B2B2B2;
-	border-left		: 0px;
-	border-right	: solid 1px #B2B2B2;
-
-	background: #F3F3F3;
+	padding: 2px;
+	border: solid 2px rgb(201, 201, 201);
 }
 
-table td.Icon {
-	text-align	: center;
+table td.icon {
+	text-align: center;
 	margin: 0px;
-	width: 48px;
 }
 
-table td.Rank,
-table td.Volume,
-table td.Recovery,
-table td.Fatigue {
-	text-align	: center;
+table td.Rank, table td.Volume, table td.Recovery, table td.Fatigue {
+	text-align: center;
 }
 
-div.Recipe{
-	margin			: 1px 0px 0px auto;
-	padding			: 1px 1px 1px 0px;
-
-	border-top		: 0px;
-	border-bottom	: 0px;
-	border-left		: #FFC0C0 4px solid;
-	border-right	: 0px;
+span.get {
+	color: green;
+	font-size: 12px;
+	margin: 2px;
 }
 
-div.Sidebar{
-	margin			: 2px 0px 2px 0px;
-	padding			: 2px 0px 2px 2px;
-
-	border-top		: 0px;
-	border-bottom	: 0px;
-	border-left		: 0px;
-	border-right	: 0px;
+span.recipe {
+	font-size: 12px;
+	margin: 2px;
 }
 
-/* Class回り */
-
-#wrap {
-	width	: 100%;
-	margin	: 0px;
-	padding	: 0px;
+div.title {
+	margin: 0px auto;
+	width: 100%;
+	max-width: 900px;
 }
 
-#phone {
-	width	: 100%;
-	margin	: 0px;
-    padding	: 0px;
+div.filter {
+	height: 28px;
+	width: calc(100% - 8px);
+	margin: 0px 4px;
+	padding: 0px;
 }
 
-#main {
-	float	: left;
-	width	: 79%;
-	margin	: 0px auto 0px auto;
-    padding	: 0px;
+input.search {
+	height: 100%;
+	width: calc(40% - 8px);
+	border-radius: 2px;
+	margin: 0px 4px 0px 0px;
+	padding: 0px;
 }
 
-#sidebar {
-	float	: left;
-	width	: 20%;
-	margin	: 1px;
-    padding	: 1px;
+button.clear, button.back {
+	height: 100%;
+	width: calc(15% - 12px);
+	border-radius: 2px;
+	margin: 0px 6px 0px 0px;
+	padding: 0px;
+	background-color: rgb(238, 238, 238);
 }
 
-#Brows {
-	text-align:center;
-	font-size:large;
-	color			: #808080;
-	font-style		: italic;
-	margin	: 16px;
+select.sort {
+	height: 100%;
+	width: calc(30% - 2px);
+	border-radius: 2px;
+	margin: 0px;
+	padding: 0px;
 }
-
-#footer {
-	clear:both;
-	width			: 99%;
-	text-align		: right;
-	color			: #808080;
-	font-style		: italic;
-	margin	: 0px;
-}
-
-#h4-right {
-	color			: green;
-	font-size		: small;
-
-	padding-top		: 8px;
-	padding-bottom	: 0px;
-	padding-left	: 0px;
-	padding-right	: 0px;
-
-	margin-top		: 2px;
-	margin-bottom	: 2px;
-	margin-left		: 0px;
-	margin-right	: 0px;
-}
-

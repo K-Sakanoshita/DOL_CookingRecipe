@@ -1,157 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=0.5" />
-	<link rel="stylesheet" type="text/css" href="phone.css">
-	<link rel="shortcut icon" href="tmfav14001.ico" >
-	<title>大航海時代Online(調理レシピ検索+)</title>
-	<script type="text/javascript" src="ecl.js"></script>
-	<script type="text/javascript" src="prototype.js"></script>
-	<script type="text/javascript" src="data.js"></script>
-	<script type="text/javascript" src="metarial.js"></script>
-	<script type="text/javascript" src="recipe.js"></script>
-	<script type="text/javascript">
-		// Global変数の設定
-		Meta    = new Metarial();
-		Recipe  = new Recipe("Phone");
-		var OldKey = "";
+<!DOCTYPE html>
+<html lang="ja">
 
-		// 関数:キーワード検索(空の時は全レシピ表示)
-		function KeySearch(Keyword){
-			var SType = "";
-			var i     = 0;
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="refresh" content="3;URL=./" />
+        <title>移転しました</title>
+    </head>
 
-			for(i = 0; i < document.MetaOneForm.SearchMethod.length; i++){	// ラジオボタンチェック
-				if(document.MetaOneForm.SearchMethod[i].checked) {
-					SType = document.MetaOneForm.SearchMethod[i].value;
-					break;
-				};
-			};
-			OldKey = document.MetaOneForm.MetaOne.value;
-			document.MetaOneForm.MetaOne.value = Keyword;
-			Recipe.FList = Recipe.SearchOne(Keyword,SType);
-			Recipe.SortResults('','');
-			WriteAnswer("on");
-		};
+    <body>
+        <h1>リダイレクト</h1>
+        <p>本サイトは移転しました。3秒後にジャンプします。<br>
+            ジャンプしない場合は、以下のURLをクリックしてください。</p>
+        <p><a href="./">移転先のページ</a></p>
+    </body>
 
-		// 関数:一致検索と関連検索
-		function RecipeSearch(SType){
-			var MList = new Array();
-			MList = Meta.GetSelectList(window);
-			Recipe.SearchAll(MList,SType);
-			Recipe.SortResults('','');
-			WriteAnswer("on");
-		};
-
-		// 関数:全ての引数を連想配列に入力
-		function GetAllQuery() {
-			var Query  = new Array();
-			var qtext  = window.location.search.substring(1);
-			var parms = qtext.split('&');
-			for (var i = 0; i < parms.length; i++) {
-				var pos = parms[i].indexOf('=');
-				if (pos > 0) {
-					var key = parms[i].substring(0,pos);
-					var str = parms[i].substring(pos + 1);
-					str = window["Unescape"+GetEscapeCodeType(str)](str);
-					Query[key] = str;
-				};
-			};
-			return Query;
-		};
-
-		// 関数:全てのレシピを一覧表示
-		function ViewAllRecipe() {
-			var elm = document;
-			var ref = elm.getElementsByName('Refine');
-			var act = elm.getElementById('Action');
-			var i = 0;
-			
-			for (i = 0 ; i < ref.length ; i++){		// 絞り込みオプションの初期化
-				ref[i].checked = ref[i].defaultChecked
-			};
-
-			for (i = 0 ; i < act.length ; i++){		// 回復量オプションの初期化
-				act[i].selected = act[i].defaultSelected
-			};
-			
-			document.getElementById('part').checked=true;
-			KeySearch('');
-		};
-
-		// 検索結果の画面表示
-		function WriteAnswer(RType) {
-			var y   = 0;
-			var elm = document;
-			var ans = elm.getElementById('Answer1');
-			var ref = elm.getElementsByName('Refine');
-			var act = elm.getElementById('Action').value;
-			Recipe.WriteAns(ans,RType,ref,act);
-		};
-	</script>
-	</head>
-
-	<body>
-	<div id="wrap">  
-		<h1><img src="./logo.png" style="padding: 2px 0px"></h1>
-		<div id="phone">
-			<form name="MetaOneForm" onSubmit="KeySearch(document.MetaOneForm.MetaOne.value);return false;">
-				<h3>キーワード検索</h3>
-				<div style="clear: both;font-size:large">
-					<input name="MetaOne" value="" type="text" style="font-size:large;width:98%;margin:1%;padding:0%;">
-					<input type="button" value="戻る" style="width:24%; float: left;" onClick="KeySearch(OldKey);ScrolltoFilter();">
-					<input type="submit" value="検索" style="width:24%; float: left;">
-					<input type="button" value="消去" style="width:24%; float: right;" onClick="ViewAllRecipe()">
-					<div style="clear: both">
-						<input type="radio" name="SearchMethod" id="part" value="part" style="float: left;" checked><label for="radio">部分一致</label>
-						<input type="radio" name="SearchMethod" id="full" value="full" style="" ><label for="full">完全一致</label>
-					</div>
-				</div>
-			</form>
-				<h3 id="Filter">並び替え・絞り込み</h3>
-				<form name="Results">
-					<div style="text-align:center;">
-						<input type="button" value="行動▲" style="width:18%;" onClick="Recipe.SortResults('HP','asc');WriteAnswer('off')">
-						<input type="button" value="行動▼" style="width:18%;" onClick="Recipe.SortResults('HP','desc');WriteAnswer('off')">
-						<input type="button" value="Rank▲" style="width:18%;" onClick="Recipe.SortResults('Rank','asc');WriteAnswer('off')">
-						<input type="button" value="Rank▼" style="width:18%;" onClick="Recipe.SortResults('Rank','desc');WriteAnswer('off')">
-						<input type="button" value="解除"   style="width:18%;" onClick="Recipe.SortResults('','asc');WriteAnswer('on')">
-					</div>
-					<input type="checkbox" name="Refine" onclick="WriteAnswer('inherit')" id="Food" value="Food" checked>単品
-					<input type="checkbox" name="Refine" onclick="WriteAnswer('inherit')" id="Party" value="Party" checked>艦隊
-					<input type="checkbox" name="Refine" onclick="WriteAnswer('inherit')" id="Trade" value="Trade" checked>交易品
-					<input type="checkbox" name="Refine" onclick="WriteAnswer('inherit')" id="Adjutant" value="Adjutant" checked>副官
-					<input type="checkbox" name="Refine" onclick="WriteAnswer('inherit')" id="Pet" value="Pet" checked>ペット
-					<input type="checkbox" name="Refine" onclick="WriteAnswer('inherit')" id="Item" value="Item" checked>アイテム
-					<input type="checkbox" name="Refine" onclick="WriteAnswer('inherit')" id="Ship" value="Ship" checked>船部品
-					<!-- 種類：Trade(交易品),Party(艦隊効果),Scurvy(壊血病),Pet(ペット),Ship(造船部品),Item(アイテム) -->
-					<br>
-					回復量：<select id="Action" onchange="WriteAnswer('inherit')" style="clear: both;font-size:large">
-						<option value="00" selected="selected">全て</option>
-						<option value="59">60未満</option>
-						<option value="60">60以上</option>
-					</select>
-				</form>
-				<hr>
-			<div id="Answer1">
-				<script type="text/javascript">
-					var Query = new Array;
-					Query = GetAllQuery();
-					if (typeof Query['q'] != "undefined" ) {
-						KeySearch(Query['q']);
-					}else{
-						KeySearch('');
-					}
-				</script>
-			</div>
-		</div>
-	</div>
-	<p id="Brows"><a href="./cooking.html">PC</a> | <b>Phone</b></p>
-	<div id="footer">
-		<hr>
-		大航海時代Online調理レシピ検索+ Copyright 2009-2012 By <a href="../">SAKA.</a><br>
-		Copyright Prototype JavaScript framework & Escape Codec Library.<br>
-	</div>
-	</body>
 </html>
