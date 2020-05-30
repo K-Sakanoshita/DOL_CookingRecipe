@@ -1,10 +1,10 @@
 {
     "フィレンツェレシピ（メディチ／モニカ／アニータ）": {
-        "get": "貢献度80消費<br>メモリアルアルバム「世界各地の絶品甘味」",
+        "get": "フィレンツェ(ロレンツォ・メディチ/モニカ/アニータ/固定)",
         "list": [
             {
-                "recipe_name": "マカロンの作り方",
-                "product_name": "マカロン",
+                "product_name": "マカロンの作り方",
+                "recipe_name": "マカロン",
                 "item1_name": "ジャム",
                 "item1_reqnum": "2",
                 "item2_name": "蜂蜜",
@@ -18,11 +18,12 @@
                 "created": "2",
                 "recovery": "20",
                 "fatigue": "0",
-                "category": "Food"
+                "category": "Food",
+                "memo": "貢献度80消費<br>メモリアルアルバム「世界各地の絶品甘味」"
             },
             {
-                "recipe_name": "フィナンシェの作り方",
-                "product_name": "フィナンシェ",
+                "product_name": "フィナンシェの作り方",
+                "recipe_name": "フィナンシェ",
                 "item1_name": "アーモンド油",
                 "item1_reqnum": "2",
                 "item2_name": "砂糖",
@@ -37,11 +38,11 @@
                 "recovery": "25",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度80消費"
             },
             {
-                "recipe_name": "フィレンツェ風肉料理",
-                "product_name": "コトレッタ",
+                "product_name": "フィレンツェ風肉料理",
+                "recipe_name": "コトレッタ",
                 "item1_name": "牛肉",
                 "item1_reqnum": "3",
                 "item2_name": "トマト",
@@ -56,11 +57,11 @@
                 "recovery": "40",
                 "fatigue": "24",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度80消費"
             },
             {
-                "recipe_name": "フルーツソースの作り方",
-                "product_name": "フルーツソース",
+                "product_name": "フルーツソースの作り方",
+                "recipe_name": "フルーツソース",
                 "item1_name": "ワイン",
                 "item1_reqnum": "1",
                 "item2_name": "蜂蜜",
@@ -74,11 +75,12 @@
                 "created": "1-3",
                 "recovery": "0",
                 "fatigue": "0",
-                "category": "Trade"
+                "category": "Trade",
+                "memo": "交易品/工芸スキル/貢献度200消費"
             },
             {
-                "recipe_name": "冷たいお菓子の保存法",
-                "product_name": "アーモンドシャーベット",
+                "product_name": "冷たいお菓子の保存法",
+                "recipe_name": "アーモンドシャーベット",
                 "item1_name": "アーモンド",
                 "item1_reqnum": "10",
                 "item2_name": "硝石",
@@ -93,16 +95,16 @@
                 "recovery": "25",
                 "fatigue": "15",
                 "category": "Food",
-                "memo": ""
+                "memo": "保管スキル/貢献度200消費<br>メモリアルアルバム「世界各地の絶品甘味」"
             }
         ]
     },
     "フィレンツェレシピ（商工会議所）": {
-        "get": "貢献度20消費",
+        "get": "フィレンツェ(商工会議所 調理職人/固定)",
         "list": [
             {
-                "recipe_name": "じゃがいものケーキ",
-                "product_name": "ポテトケーキ",
+                "product_name": "じゃがいものケーキ",
+                "recipe_name": "ポテトケーキ",
                 "item1_name": "ジャガイモ",
                 "item1_reqnum": "3",
                 "item2_name": "卵",
@@ -117,11 +119,11 @@
                 "recovery": "40",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度20消費"
             },
             {
-                "recipe_name": "そら豆の揚げ物",
-                "product_name": "そら豆コロッケ",
+                "product_name": "そら豆の揚げ物",
+                "recipe_name": "そら豆コロッケ",
                 "item1_name": "そら豆",
                 "item1_reqnum": "5",
                 "item2_name": "小麦粉",
@@ -136,11 +138,11 @@
                 "recovery": "25",
                 "fatigue": "15",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度10消費"
             },
             {
-                "recipe_name": "アジのバター焼き",
-                "product_name": "アジのムニエル",
+                "product_name": "アジのバター焼き",
+                "recipe_name": "アジのムニエル",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "1",
                 "item2_name": "バター",
@@ -155,11 +157,11 @@
                 "recovery": "30",
                 "fatigue": "18",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度10消費"
             },
             {
-                "recipe_name": "アラビアの甘いデザート",
-                "product_name": "カターイフ",
+                "product_name": "アラビアの甘いデザート",
+                "recipe_name": "カターイフ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "3",
                 "item2_name": "蜂蜜",
@@ -174,11 +176,11 @@
                 "recovery": "50",
                 "fatigue": "30",
                 "category": "Party",
-                "memo": ""
+                "memo": "艦隊効果/貢献度20消費"
             },
             {
-                "recipe_name": "オリーブのパイ",
                 "product_name": "オリーブのパイ",
+                "recipe_name": "オリーブのパイ",
                 "item1_name": "オリーブ",
                 "item1_reqnum": "4",
                 "item2_name": "パイ生地",
@@ -193,11 +195,11 @@
                 "recovery": "35",
                 "fatigue": "21",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度10消費"
             },
             {
-                "recipe_name": "シタビラメのバター焼き",
                 "product_name": "シタビラメのバター焼き",
+                "recipe_name": "シタビラメのバター焼き",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "1",
                 "item2_name": "バター",
@@ -212,11 +214,11 @@
                 "recovery": "30",
                 "fatigue": "18",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度10消費"
             },
             {
-                "recipe_name": "スズキのパイ包み焼き",
                 "product_name": "スズキのパイ包み焼き",
+                "recipe_name": "スズキのパイ包み焼き",
                 "item1_name": "パイ生地",
                 "item1_reqnum": "2",
                 "item2_name": "バター",
@@ -231,11 +233,11 @@
                 "recovery": "40",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度13消費"
             },
             {
-                "recipe_name": "ソーセージのグラタン",
                 "product_name": "ソーセージのグラタン",
+                "recipe_name": "ソーセージのグラタン",
                 "item1_name": "ソーセージ",
                 "item1_reqnum": "3",
                 "item2_name": "チーズ",
@@ -250,11 +252,11 @@
                 "recovery": "50",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度15消費"
             },
             {
-                "recipe_name": "トルコの詰め物料理",
-                "product_name": "サルマ",
+                "product_name": "トルコの詰め物料理",
+                "recipe_name": "サルマ",
                 "item1_name": "タマネギ",
                 "item1_reqnum": "2",
                 "item2_name": "オリーブ油",
@@ -269,11 +271,11 @@
                 "recovery": "35",
                 "fatigue": "21",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度15消費"
             },
             {
-                "recipe_name": "パン入りオニオンスープ",
-                "product_name": "オニオングラタンスープ",
+                "product_name": "パン入りオニオンスープ",
+                "recipe_name": "オニオングラタンスープ",
                 "item1_name": "チーズ",
                 "item1_reqnum": "2",
                 "item2_name": "ライ麦パン",
@@ -288,11 +290,11 @@
                 "recovery": "70",
                 "fatigue": "42",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度30消費"
             },
             {
-                "recipe_name": "フルーツチーズケーキ",
                 "product_name": "フルーツチーズケーキ",
+                "recipe_name": "フルーツチーズケーキ",
                 "item1_name": "フルーツソース",
                 "item1_reqnum": "1",
                 "item2_name": "チーズケーキ",
@@ -307,11 +309,11 @@
                 "recovery": "55",
                 "fatigue": "33",
                 "category": "Party",
-                "memo": ""
+                "memo": "艦隊効果/貢献度30消費"
             },
             {
-                "recipe_name": "ベーコンのピッツァ",
                 "product_name": "ベーコンのピッツァ",
+                "recipe_name": "ベーコンのピッツァ",
                 "item1_name": "チーズ",
                 "item1_reqnum": "1",
                 "item2_name": "ベーコン",
@@ -326,11 +328,11 @@
                 "recovery": "60",
                 "fatigue": "36",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度30消費"
             },
             {
-                "recipe_name": "北欧風チーズケーキ",
-                "product_name": "オストカーカ",
+                "product_name": "北欧風チーズケーキ",
+                "recipe_name": "オストカーカ",
                 "item1_name": "チーズ",
                 "item1_reqnum": "3",
                 "item2_name": "小麦粉",
@@ -345,11 +347,11 @@
                 "recovery": "45",
                 "fatigue": "27",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度20消費"
             },
             {
-                "recipe_name": "果物入りパン（りんご）",
-                "product_name": "りんごのパネトーネ",
+                "product_name": "果物入りパン（りんご）",
+                "recipe_name": "りんごのパネトーネ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "3",
                 "item2_name": "バター",
@@ -364,11 +366,11 @@
                 "recovery": "60",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度20消費"
             },
             {
-                "recipe_name": "果物入りパン（アンズ）",
-                "product_name": "アンズのパネトーネ",
+                "product_name": "果物入りパン（アンズ）",
+                "recipe_name": "アンズのパネトーネ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "3",
                 "item2_name": "バター",
@@ -383,11 +385,11 @@
                 "recovery": "60",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度20消費"
             },
             {
-                "recipe_name": "果物入りパン（プルーン）",
-                "product_name": "プルーンのパネトーネ",
+                "product_name": "果物入りパン（プルーン）",
+                "recipe_name": "プルーンのパネトーネ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "3",
                 "item2_name": "バター",
@@ -402,11 +404,11 @@
                 "recovery": "60",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度20消費"
             },
             {
-                "recipe_name": "海草入り揚げパン",
                 "product_name": "海草入り揚げパン",
+                "recipe_name": "海草入り揚げパン",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "2",
                 "item2_name": "オリーブ油",
@@ -421,11 +423,11 @@
                 "recovery": "50",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度25消費"
             },
             {
-                "recipe_name": "温かいデザートの作り方",
-                "product_name": "フルーツグラタン",
+                "product_name": "温かいデザートの作り方",
+                "recipe_name": "フルーツグラタン",
                 "item1_name": "卵",
                 "item1_reqnum": "2",
                 "item2_name": "乳",
@@ -440,11 +442,11 @@
                 "recovery": "60",
                 "fatigue": "0",
                 "category": "Food/Scurvy",
-                "memo": ""
+                "memo": "壊血病回復/貢献度25消費"
             },
             {
-                "recipe_name": "焼き菓子とシャーベット",
-                "product_name": "ビスコチョシャーベット",
+                "product_name": "焼き菓子とシャーベット",
+                "recipe_name": "ビスコチョシャーベット",
                 "item1_name": "ビスコチョ",
                 "item1_reqnum": "2",
                 "item2_name": "アーモンドシャーベット",
@@ -459,11 +461,11 @@
                 "recovery": "65",
                 "fatigue": "39",
                 "category": "Party",
-                "memo": ""
+                "memo": "艦隊効果/貢献度30消費"
             },
             {
-                "recipe_name": "祭事用ブリオッシュ",
                 "product_name": "祭事用ブリオッシュ",
+                "recipe_name": "祭事用ブリオッシュ",
                 "item1_name": "干しイチゴ",
                 "item1_reqnum": "1",
                 "item2_name": "りんごのコンポート",
@@ -478,11 +480,11 @@
                 "recovery": "75",
                 "fatigue": "0",
                 "category": "Food/Scurvy",
-                "memo": ""
+                "memo": "貢献度40消費"
             },
             {
-                "recipe_name": "詰め物をしたパスタ",
-                "product_name": "ラビオリ",
+                "product_name": "詰め物をしたパスタ",
+                "recipe_name": "ラビオリ",
                 "item1_name": "チーズ",
                 "item1_reqnum": "2",
                 "item2_name": "小麦粉",
@@ -497,11 +499,11 @@
                 "recovery": "30",
                 "fatigue": "18",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度20消費"
             },
             {
-                "recipe_name": "豚のロースト",
-                "product_name": "豚肉のロースト",
+                "product_name": "豚のロースト",
+                "recipe_name": "豚肉のロースト",
                 "item1_name": "豚肉",
                 "item1_reqnum": "1",
                 "item2_name": "オリーブ油",
@@ -516,11 +518,11 @@
                 "recovery": "30",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度20消費"
             },
             {
-                "recipe_name": "豚のローストゆで卵添え",
-                "product_name": "豚肉のローストゆで卵添え",
+                "product_name": "豚のローストゆで卵添え",
+                "recipe_name": "豚肉のローストゆで卵添え",
                 "item1_name": "ゆで卵",
                 "item1_reqnum": "1",
                 "item2_name": "豚肉のロースト",
@@ -535,11 +537,11 @@
                 "recovery": "35",
                 "fatigue": "21",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度25消費"
             },
             {
-                "recipe_name": "香草と鮭のグラタン",
                 "product_name": "香草と鮭のグラタン",
+                "recipe_name": "香草と鮭のグラタン",
                 "item1_name": "チーズ",
                 "item1_reqnum": "2",
                 "item2_name": "バジル",
@@ -554,11 +556,11 @@
                 "recovery": "55",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度15消費"
             },
             {
-                "recipe_name": "香草風味のパン",
-                "product_name": "香草風味のフォカッチャ",
+                "product_name": "香草風味のパン",
+                "recipe_name": "香草風味のフォカッチャ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "1",
                 "item2_name": "オリーブ油",
@@ -573,11 +575,11 @@
                 "recovery": "20",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度15消費"
             },
             {
-                "recipe_name": "鮭のパイ包み焼き",
                 "product_name": "鮭のパイ包み焼き",
+                "recipe_name": "鮭のパイ包み焼き",
                 "item1_name": "パイ生地",
                 "item1_reqnum": "2",
                 "item2_name": "バター",
@@ -592,7 +594,7 @@
                 "recovery": "40",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "貢献度13消費"
             }
         ]
     }

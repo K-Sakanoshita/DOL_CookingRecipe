@@ -1,10 +1,10 @@
 {
     "セット料理集第1巻": {
-        "get": "副官料理<br>メモリアルアルバム「副官へのご褒美」",
+        "get": "リスボン(クリスティナ/固定)",
         "list": [
             {
-                "recipe_name": "主計長用料理の作り方",
-                "product_name": "魚介マリネと2種のパン",
+                "product_name": "主計長用料理の作り方",
+                "recipe_name": "魚介マリネと2種のパン",
                 "item1_name": "エビのハーブマリネ",
                 "item1_reqnum": "1",
                 "item2_name": "干しブドウ入りライ麦パン",
@@ -19,11 +19,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Adjutant",
-                "memo": ""
+                "memo": "副官料理<br>メモリアルアルバム「副官へのご褒美」"
             },
             {
-                "recipe_name": "倉庫番用料理の作り方",
-                "product_name": "パイと大皿フルーツセット",
+                "product_name": "倉庫番用料理の作り方",
+                "recipe_name": "パイと大皿フルーツセット",
                 "item1_name": "豆とベーコンのスープ",
                 "item1_reqnum": "1",
                 "item2_name": "ミートパイ",
@@ -38,11 +38,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Adjutant",
-                "memo": ""
+                "memo": "副官料理<br>メモリアルアルバム「副官へのご褒美」"
             },
             {
-                "recipe_name": "兵長用料理の作り方",
-                "product_name": "具だくさん煮込み料理",
+                "product_name": "兵長用料理の作り方",
+                "recipe_name": "具だくさん煮込み料理",
                 "item1_name": "ズッキーニのマハシー",
                 "item1_reqnum": "1",
                 "item2_name": "子羊とカブの煮込み",
@@ -57,11 +57,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Adjutant",
-                "memo": ""
+                "memo": "副官料理<br>メモリアルアルバム「副官へのご褒美」"
             },
             {
-                "recipe_name": "航海長用料理の作り方",
-                "product_name": "漁師の軽食セット",
+                "product_name": "航海長用料理の作り方",
+                "recipe_name": "漁師の軽食セット",
                 "item1_name": "そら豆のスープ",
                 "item1_reqnum": "1",
                 "item2_name": "鮭のムニエル",
@@ -76,11 +76,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Adjutant",
-                "memo": ""
+                "memo": "副官料理<br>メモリアルアルバム「副官へのご褒美」"
             },
             {
-                "recipe_name": "船医用料理の作り方",
-                "product_name": "健康家庭料理セット",
+                "product_name": "船医用料理の作り方",
+                "recipe_name": "健康家庭料理セット",
                 "item1_name": "ベーグル",
                 "item1_reqnum": "1",
                 "item2_name": "ポルトガル風ブイヤベース",
@@ -95,11 +95,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Adjutant",
-                "memo": ""
+                "memo": "副官料理<br>メモリアルアルバム「副官へのご褒美」"
             },
             {
-                "recipe_name": "見張り用料理の作り方",
-                "product_name": "田舎風煮込みセット",
+                "product_name": "見張り用料理の作り方",
+                "recipe_name": "田舎風煮込みセット",
                 "item1_name": "ブイヤベース",
                 "item1_reqnum": "1",
                 "item2_name": "子羊とカブの煮込み",
@@ -114,16 +114,16 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Adjutant",
-                "memo": ""
+                "memo": "副官料理<br>メモリアルアルバム「副官へのご褒美」"
             }
         ]
     },
     "ペットの育て方　上級編": {
-        "get": "ペット",
+        "get": "アムステルダム(調教師/固定)",
         "list": [
             {
-                "recipe_name": "家畜肉と魚介類の混合餌",
-                "product_name": "混合餌（肉）",
+                "product_name": "家畜肉と魚介類の混合餌",
+                "recipe_name": "混合餌（肉）",
                 "item1_name": "肉餌",
                 "item1_reqnum": "2",
                 "item2_name": "鮮魚",
@@ -138,11 +138,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "野菜と果実の混合餌",
-                "product_name": "混合餌（野菜）",
+                "product_name": "野菜と果実の混合餌",
+                "recipe_name": "混合餌（野菜）",
                 "item1_name": "野菜くず",
                 "item1_reqnum": "5",
                 "item2_name": "カットフルーツ",
@@ -157,11 +157,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "家畜肉の練り物",
-                "product_name": "肉ダンゴ",
+                "product_name": "家畜肉の練り物",
+                "recipe_name": "肉ダンゴ",
                 "item1_name": "肉餌",
                 "item1_reqnum": "5",
                 "item2_name": "",
@@ -176,11 +176,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "サボテンのステーキ",
-                "product_name": "サボテンステーキ",
+                "product_name": "サボテンのステーキ",
+                "recipe_name": "サボテンステーキ",
                 "item1_name": "サボテン",
                 "item1_reqnum": "2",
                 "item2_name": "",
@@ -195,16 +195,16 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             }
         ]
     },
     "ペットの育て方　初級編": {
-        "get": "ペット",
+        "get": "ヴェネツィア(調教師/固定)",
         "list": [
             {
-                "recipe_name": "新鮮野菜の切り方",
-                "product_name": "野菜くず",
+                "product_name": "新鮮野菜の切り方",
+                "recipe_name": "野菜くず",
                 "item1_name": "カブ",
                 "item1_reqnum": "5",
                 "item2_name": "サツマイモ",
@@ -219,11 +219,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "家畜肉のさばき方",
-                "product_name": "肉餌",
+                "product_name": "家畜肉のさばき方",
+                "recipe_name": "肉餌",
                 "item1_name": "ニワトリ",
                 "item1_reqnum": "2",
                 "item2_name": "野ウサギ",
@@ -238,11 +238,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "新鮮カットフルーツ",
-                "product_name": "カットフルーツ",
+                "product_name": "新鮮カットフルーツ",
+                "recipe_name": "カットフルーツ",
                 "item1_name": "バナナ",
                 "item1_reqnum": "2",
                 "item2_name": "パパイヤ",
@@ -257,11 +257,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "剥き餌",
                 "product_name": "剥き餌",
+                "recipe_name": "剥き餌",
                 "item1_name": "大麦",
                 "item1_reqnum": "3",
                 "item2_name": "カラス麦",
@@ -276,23 +276,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             }
         ]
     },
     "旅人の食料調達術（保管スキル）": {
-        "get": "交易品",
+        "get": "サロニカ(投資)、ベンガジ(投資)",
         "list": [
             {
-                "recipe_name": "干しイチゴの製法",
-                "product_name": "干しイチゴ",
+                "product_name": "干しイチゴの製法",
+                "recipe_name": "干しイチゴ",
                 "item1_name": "木の実",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "1",
                 "req_name2": "",
                 "req_rank2": "",
@@ -300,18 +300,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "プルーンの製法",
-                "product_name": "プルーン",
+                "product_name": "プルーンの製法",
+                "recipe_name": "プルーン",
                 "item1_name": "木の実",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -319,18 +319,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "卵の温め方",
-                "product_name": "ニワトリ",
+                "product_name": "卵の温め方",
+                "recipe_name": "ニワトリ",
                 "item1_name": "卵",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -338,18 +338,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品(たまにアヒル)"
             },
             {
-                "recipe_name": "卵の温め方",
-                "product_name": "アヒル",
+                "product_name": "卵の温め方",
+                "recipe_name": "アヒル",
                 "item1_name": "卵",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -357,18 +357,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品(いつもニワトリ)"
             },
             {
-                "recipe_name": "ピクルスの製法",
-                "product_name": "ピクルス",
+                "product_name": "ピクルスの製法",
+                "recipe_name": "ピクルス",
                 "item1_name": "タマネギ",
                 "item1_reqnum": "1",
                 "item2_name": "ホワイトビネガー",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -376,18 +376,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "プルーンの煮詰め方",
-                "product_name": "ジャム",
+                "product_name": "プルーンの煮詰め方",
+                "recipe_name": "ジャム",
                 "item1_name": "砂糖",
                 "item1_reqnum": "1",
                 "item2_name": "プルーン",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -395,18 +395,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "干しイチジクの製法",
-                "product_name": "干しイチジク",
+                "product_name": "干しイチジクの製法",
+                "recipe_name": "干しイチジク",
                 "item1_name": "木の実",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -414,18 +414,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "木の実の煮詰め方",
-                "product_name": "ジャム",
+                "product_name": "木の実の煮詰め方",
+                "recipe_name": "ジャム",
                 "item1_name": "木の実",
                 "item1_reqnum": "1",
                 "item2_name": "砂糖",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -433,18 +433,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "干しアンズの製法",
-                "product_name": "干しアンズ",
+                "product_name": "干しアンズの製法",
+                "recipe_name": "干しアンズ",
                 "item1_name": "木の実",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -452,18 +452,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "干しリンゴの製法",
-                "product_name": "干しリンゴ",
+                "product_name": "干しリンゴの製法",
+                "recipe_name": "干しリンゴ",
                 "item1_name": "木の実",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -471,18 +471,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "マンゴーの煮詰め方",
-                "product_name": "ジャム",
+                "product_name": "マンゴーの煮詰め方",
+                "recipe_name": "ジャム",
                 "item1_name": "砂糖",
                 "item1_reqnum": "2",
                 "item2_name": "マンゴー",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -490,18 +490,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "干しマンゴーの製法",
-                "product_name": "干しマンゴー",
+                "product_name": "干しマンゴーの製法",
+                "recipe_name": "干しマンゴー",
                 "item1_name": "木の実",
                 "item1_reqnum": "5",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -509,18 +509,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "クランベリーの煮詰め方",
-                "product_name": "ジャム",
+                "product_name": "クランベリーの煮詰め方",
+                "recipe_name": "ジャム",
                 "item1_name": "砂糖",
                 "item1_reqnum": "2",
                 "item2_name": "クランベリー",
                 "item2_reqnum": "5",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "6",
                 "req_name2": "",
                 "req_rank2": "",
@@ -528,18 +528,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "パイナップルの煮詰め方",
-                "product_name": "ジャム",
+                "product_name": "パイナップルの煮詰め方",
+                "recipe_name": "ジャム",
                 "item1_name": "砂糖",
                 "item1_reqnum": "2",
                 "item2_name": "パイナップル",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "6",
                 "req_name2": "",
                 "req_rank2": "",
@@ -547,18 +547,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ライムジュースの製法",
-                "product_name": "ライムジュース",
+                "product_name": "ライムジュースの製法",
+                "recipe_name": "ライムジュース",
                 "item1_name": "木の実",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -566,18 +566,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "壊血病回復<br>行商人（西欧諸国本拠地 ほか）"
             },
             {
-                "recipe_name": "唐辛子の摘み取り",
-                "product_name": "唐辛子",
+                "product_name": "唐辛子の摘み取り",
+                "recipe_name": "唐辛子",
                 "item1_name": "奇妙な実",
                 "item1_reqnum": "5",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "8",
                 "req_name2": "",
                 "req_rank2": "",
@@ -585,18 +585,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "青唐辛子の摘み取り",
-                "product_name": "青唐辛子",
+                "product_name": "青唐辛子の摘み取り",
+                "recipe_name": "青唐辛子",
                 "item1_name": "奇妙な実",
                 "item1_reqnum": "6",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "9",
                 "req_name2": "",
                 "req_rank2": "",
@@ -604,18 +604,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ナッツの見分け方",
-                "product_name": "カシューナッツ",
+                "product_name": "ナッツの見分け方",
+                "recipe_name": "カシューナッツ",
                 "item1_name": "奇妙な実",
                 "item1_reqnum": "5",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "10",
                 "req_name2": "",
                 "req_rank2": "",
@@ -623,18 +623,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "香辛料選定術",
-                "product_name": "オールスパイス",
+                "product_name": "香辛料選定術",
+                "recipe_name": "オールスパイス",
                 "item1_name": "奇妙な実",
                 "item1_reqnum": "5",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "11",
                 "req_name2": "",
                 "req_rank2": "",
@@ -642,18 +642,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "キナ皮の収集",
-                "product_name": "キナ皮",
+                "product_name": "キナ皮の収集",
+                "recipe_name": "キナ皮",
                 "item1_name": "樹皮",
                 "item1_reqnum": "5",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "12",
                 "req_name2": "",
                 "req_rank2": "",
@@ -661,23 +661,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             }
         ]
     },
     "漁師の心得・鮮魚保存法（保管スキル）": {
-        "get": "交易品",
+        "get": "各国本拠地(道具屋/オスマン除く)",
         "list": [
             {
-                "recipe_name": "イワシ加工",
-                "product_name": "魚肉",
+                "product_name": "イワシ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "イワシ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "1",
                 "req_name2": "",
                 "req_rank2": "",
@@ -685,18 +685,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "サバ加工",
-                "product_name": "魚肉",
+                "product_name": "サバ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "サバ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "1",
                 "req_name2": "",
                 "req_rank2": "",
@@ -704,18 +704,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "サンマ加工",
-                "product_name": "魚肉",
+                "product_name": "サンマ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "サンマ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "1",
                 "req_name2": "",
                 "req_rank2": "",
@@ -723,18 +723,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ニシン加工",
-                "product_name": "魚肉",
+                "product_name": "ニシン加工",
+                "recipe_name": "魚肉",
                 "item1_name": "ニシン",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "1",
                 "req_name2": "",
                 "req_rank2": "",
@@ -742,18 +742,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ボラ加工",
-                "product_name": "魚肉",
+                "product_name": "ボラ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "ボラ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "1",
                 "req_name2": "",
                 "req_rank2": "",
@@ -761,18 +761,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "アジ加工",
-                "product_name": "魚肉",
+                "product_name": "アジ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "アジ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -780,18 +780,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "オニカマス加工",
-                "product_name": "魚肉",
+                "product_name": "オニカマス加工",
+                "recipe_name": "魚肉",
                 "item1_name": "オニカマス",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -799,18 +799,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "グルクマ加工",
-                "product_name": "魚肉",
+                "product_name": "グルクマ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "グルクマ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -818,18 +818,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ソウダガツオ加工",
-                "product_name": "魚肉",
+                "product_name": "ソウダガツオ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "ソウダガツオ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -837,18 +837,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ハガツオ加工",
-                "product_name": "魚肉",
+                "product_name": "ハガツオ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "ハガツオ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -856,18 +856,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "マダイ加工",
-                "product_name": "魚肉",
+                "product_name": "マダイ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "マダイ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -875,18 +875,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "タラ加工",
-                "product_name": "魚肉",
+                "product_name": "タラ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "タラ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -894,18 +894,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "カマスサワラ加工",
-                "product_name": "魚肉",
+                "product_name": "カマスサワラ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "カマスサワラ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -913,18 +913,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "サケ加工",
-                "product_name": "魚肉",
+                "product_name": "サケ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "サケ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -932,18 +932,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "カツオ加工",
-                "product_name": "魚肉",
+                "product_name": "カツオ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "カツオ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -951,18 +951,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "サワラ加工",
-                "product_name": "魚肉",
+                "product_name": "サワラ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "サワラ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -970,18 +970,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "イワシの塩漬けの作り方",
-                "product_name": "アンチョビ",
+                "product_name": "イワシの塩漬けの作り方",
+                "recipe_name": "アンチョビ",
                 "item1_name": "塩",
                 "item1_reqnum": "5",
                 "item2_name": "カタクチイワシ",
                 "item2_reqnum": "5",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -989,18 +989,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "マグロ加工",
-                "product_name": "魚肉",
+                "product_name": "マグロ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "マグロ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "8",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1008,18 +1008,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "キャビアの製法",
-                "product_name": "キャビア",
+                "product_name": "キャビアの製法",
+                "recipe_name": "キャビア",
                 "item1_name": "塩",
                 "item1_reqnum": "1",
                 "item2_name": "チョウザメ",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "13",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1027,18 +1027,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "アオザメ加工",
-                "product_name": "魚肉",
+                "product_name": "アオザメ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "アオザメ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "14",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1046,18 +1046,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "カジキ加工",
-                "product_name": "魚肉",
+                "product_name": "カジキ加工",
+                "recipe_name": "魚肉",
                 "item1_name": "カジキ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "14",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1065,23 +1065,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             }
         ]
     },
     "生産技術書・保管応用編（保管スキル）": {
-        "get": "消耗品、使用すると100食分となる<br>要 管理技術R4　備蓄品利用不可<br>マンチェスターで常時生産可",
+        "get": "マンチェスターまたは産業革命中の都市(工場缶詰機/固定)",
         "list": [
             {
-                "recipe_name": "カレー＆ライスの缶詰法",
-                "product_name": "カレー＆ライスの缶詰",
+                "product_name": "カレー＆ライスの缶詰法",
+                "recipe_name": "カレー＆ライスの缶詰",
                 "item1_name": "ブリキ",
                 "item1_reqnum": "10",
                 "item2_name": "カレー＆ライス",
                 "item2_reqnum": "105",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "6",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1089,18 +1089,18 @@
                 "recovery": "35",
                 "fatigue": "21",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、使用すると100食分となる<br>要 管理技術R4　備蓄品利用不可<br>マンチェスターで常時生産可"
             },
             {
-                "recipe_name": "魚介のピッツァの缶詰法",
-                "product_name": "魚介のピッツァの缶詰",
+                "product_name": "魚介のピッツァの缶詰法",
+                "recipe_name": "魚介のピッツァの缶詰",
                 "item1_name": "ブリキ",
                 "item1_reqnum": "10",
                 "item2_name": "魚介のピッツァ",
                 "item2_reqnum": "105",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "8",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1108,18 +1108,18 @@
                 "recovery": "50",
                 "fatigue": "10",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、使用すると100食分となる<br>要 管理技術R6　備蓄品利用不可<br>マンチェスターで常時生産可"
             },
             {
-                "recipe_name": "ニンニク入りの鶏の缶詰法",
-                "product_name": "鶏のニンニク詰めの缶詰",
+                "product_name": "ニンニク入りの鶏の缶詰法",
+                "recipe_name": "鶏のニンニク詰めの缶詰",
                 "item1_name": "ブリキ",
                 "item1_reqnum": "10",
                 "item2_name": "鶏丸焼きニンニク詰め",
                 "item2_reqnum": "105",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "10",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1127,18 +1127,18 @@
                 "recovery": "70",
                 "fatigue": "14",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、使用すると100食分となる<br>要 管理技術R8　備蓄品利用不可<br>産業革命中の都市で自国籍のみ生産可"
             },
             {
-                "recipe_name": "塩漬け魚の缶詰法",
-                "product_name": "木の実添え塩漬け魚の缶詰",
+                "product_name": "塩漬け魚の缶詰法",
+                "recipe_name": "木の実添え塩漬け魚の缶詰",
                 "item1_name": "ブリキ",
                 "item1_reqnum": "10",
                 "item2_name": "塩漬け魚の木の実添え",
                 "item2_reqnum": "105",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "10",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1146,18 +1146,18 @@
                 "recovery": "70",
                 "fatigue": "42",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、使用すると100食分となる<br>要 管理技術R8　備蓄品利用不可<br>産業革命中の都市で自国籍のみ生産可"
             },
             {
-                "recipe_name": "ゼリーとフルーツの缶詰法",
-                "product_name": "ゼリーとフルーツの缶詰",
+                "product_name": "ゼリーとフルーツの缶詰法",
+                "recipe_name": "ゼリーとフルーツの缶詰",
                 "item1_name": "ブリキ",
                 "item1_reqnum": "10",
                 "item2_name": "ゼリーのフルーツ添え",
                 "item2_reqnum": "105",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "12",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1165,18 +1165,18 @@
                 "recovery": "85",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、使用すると100食分となる<br>要 管理技術R10　備蓄品利用不可<br>産業革命中の都市で自国籍のみ生産可"
             },
             {
-                "recipe_name": "マグロステーキの缶詰法",
-                "product_name": "マグロステーキの缶詰",
+                "product_name": "マグロステーキの缶詰法",
+                "recipe_name": "マグロステーキの缶詰",
                 "item1_name": "ブリキ",
                 "item1_reqnum": "10",
                 "item2_name": "マグロのオリーブステーキ",
                 "item2_reqnum": "105",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "13",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1184,18 +1184,18 @@
                 "recovery": "80",
                 "fatigue": "48",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、使用すると100食分となる<br>要 管理技術R11　備蓄品利用不可<br>産業革命中の都市で自国籍のみ生産可"
             },
             {
-                "recipe_name": "ニシンの缶詰法",
-                "product_name": "シュールストレミング",
+                "product_name": "ニシンの缶詰法",
+                "recipe_name": "シュールストレミング",
                 "item1_name": "ニシン",
                 "item1_reqnum": "20",
                 "item2_name": "ブリキ",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "17",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1203,18 +1203,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、白兵戦アイテム：敵船員疲労<br>要 管理技術R11　備蓄品利用不可<br>マンチェスター限定<br>メモリアルアルバム「高度な生産術の成果(NO.2)」"
             },
             {
-                "recipe_name": "ベーグルサンドの缶詰法",
-                "product_name": "ベーグルサンドの缶詰",
+                "product_name": "ベーグルサンドの缶詰法",
+                "recipe_name": "ベーグルサンドの缶詰",
                 "item1_name": "ブリキ",
                 "item1_reqnum": "10",
                 "item2_name": "ベーグルサンド",
                 "item2_reqnum": "105",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "17",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1222,18 +1222,18 @@
                 "recovery": "90",
                 "fatigue": "54",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、使用すると100食分となる<br>要 管理技術R11　備蓄品利用不可<br>産業革命中の都市で自国籍のみ生産可<br>メモリアルアルバム「高度な生産術の成果(NO.2)」"
             },
             {
-                "recipe_name": "霜降りステーキの缶詰法",
-                "product_name": "霜降り肉のステーキの缶詰",
+                "product_name": "霜降りステーキの缶詰法",
+                "recipe_name": "霜降り肉のステーキの缶詰",
                 "item1_name": "ブリキ",
                 "item1_reqnum": "10",
                 "item2_name": "霜降り肉のステーキ",
                 "item2_reqnum": "105",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "17",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1241,16 +1241,16 @@
                 "recovery": "70",
                 "fatigue": "42",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品、使用すると100食分となる<br>要 管理技術R11　備蓄品利用不可<br>産業革命中の都市で自国籍のみ生産可<br>メモリアルアルバム「高度な生産術の成果(NO.2)」"
             }
         ]
     },
     "生産技術書・調理応用編": {
-        "get": "消耗品<br>要 管理技術R3　備蓄品利用可（10920D/回）<br>マンチェスターで常時生産可",
+        "get": "マンチェスターまたは産業革命中の都市(工場調理台/固定)",
         "list": [
             {
-                "recipe_name": "カレーの素の製法",
-                "product_name": "カレーパウダー",
+                "product_name": "カレーの素の製法",
+                "recipe_name": "カレーパウダー",
                 "item1_name": "クミン",
                 "item1_reqnum": "2",
                 "item2_name": "ガラムマサラ",
@@ -1265,11 +1265,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品<br>要 管理技術R3　備蓄品利用可（10920D/回）<br>マンチェスターで常時生産可"
             },
             {
-                "recipe_name": "パンと卵の軽食の作り方",
-                "product_name": "エッグサンド",
+                "product_name": "パンと卵の軽食の作り方",
+                "recipe_name": "エッグサンド",
                 "item1_name": "卵",
                 "item1_reqnum": "2",
                 "item2_name": "バター",
@@ -1284,11 +1284,11 @@
                 "recovery": "35",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "要 管理技術R3　備蓄品利用可（1600D+ライ麦パン1/回）<br>マンチェスターで常時生産可"
             },
             {
-                "recipe_name": "パンとハムの軽食の作り方",
-                "product_name": "ハムチーズサンド",
+                "product_name": "パンとハムの軽食の作り方",
+                "recipe_name": "ハムチーズサンド",
                 "item1_name": "チーズ",
                 "item1_reqnum": "1",
                 "item2_name": "ハム",
@@ -1303,11 +1303,11 @@
                 "recovery": "35",
                 "fatigue": "7",
                 "category": "Food",
-                "memo": ""
+                "memo": "要 管理技術R4　備蓄品利用可（5280D＋ライ麦パン1/回）<br>マンチェスターで常時生産可"
             },
             {
-                "recipe_name": "ゼラチンの抽出法",
-                "product_name": "ゼラチン",
+                "product_name": "ゼラチンの抽出法",
+                "recipe_name": "ゼラチン",
                 "item1_name": "イワシ",
                 "item1_reqnum": "20",
                 "item2_name": "",
@@ -1322,11 +1322,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品<br>要 管理技術R5　備蓄品利用可（1600D/回）<br>産業革命中の都市で国籍に関わらず生産可"
             },
             {
-                "recipe_name": "乳の加糖と濃縮の方法",
-                "product_name": "加糖練乳",
+                "product_name": "乳の加糖と濃縮の方法",
+                "recipe_name": "加糖練乳",
                 "item1_name": "乳",
                 "item1_reqnum": "2",
                 "item2_name": "砂糖",
@@ -1341,11 +1341,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品<br>要 管理技術R5　備蓄品利用可（7200D/回）<br>産業革命中の都市で国籍に関わらず生産可"
             },
             {
-                "recipe_name": "欧風カレーの調理法",
-                "product_name": "カレー＆ライス",
+                "product_name": "欧風カレーの調理法",
+                "recipe_name": "カレー＆ライス",
                 "item1_name": "水稲",
                 "item1_reqnum": "2",
                 "item2_name": "タマネギ",
@@ -1360,11 +1360,11 @@
                 "recovery": "35",
                 "fatigue": "21",
                 "category": "Party",
-                "memo": ""
+                "memo": "艦隊効果<br>要 管理技術R6　備蓄品利用可（800D＋カレーパウダー1/回）<br>マンチェスターで常時生産可"
             },
             {
-                "recipe_name": "甘いコーヒーの入れ方",
-                "product_name": "砂糖入りコーヒー",
+                "product_name": "甘いコーヒーの入れ方",
+                "recipe_name": "砂糖入りコーヒー",
                 "item1_name": "砂糖",
                 "item1_reqnum": "1",
                 "item2_name": "コーヒー",
@@ -1379,11 +1379,11 @@
                 "recovery": "50",
                 "fatigue": "10",
                 "category": "Food",
-                "memo": ""
+                "memo": "要 管理技術R8　備蓄品利用可（8500D/回）<br>産業革命中の都市で自国籍のみ生産可"
             },
             {
-                "recipe_name": "甘い紅茶の入れ方",
-                "product_name": "砂糖入り紅茶",
+                "product_name": "甘い紅茶の入れ方",
+                "recipe_name": "砂糖入り紅茶",
                 "item1_name": "砂糖",
                 "item1_reqnum": "1",
                 "item2_name": "紅茶",
@@ -1398,11 +1398,11 @@
                 "recovery": "50",
                 "fatigue": "10",
                 "category": "Food",
-                "memo": ""
+                "memo": "要 管理技術R8　備蓄品利用可（9300D/回）<br>産業革命中の都市で自国籍のみ生産可"
             },
             {
-                "recipe_name": "濃く甘い紅茶の入れ方",
-                "product_name": "練乳入り紅茶",
+                "product_name": "濃く甘い紅茶の入れ方",
+                "recipe_name": "練乳入り紅茶",
                 "item1_name": "紅茶",
                 "item1_reqnum": "2",
                 "item2_name": "加糖練乳",
@@ -1417,11 +1417,11 @@
                 "recovery": "65",
                 "fatigue": "39",
                 "category": "Party",
-                "memo": ""
+                "memo": "艦隊効果<br>要 管理技術R11　備蓄品利用可（6440D＋加糖練乳1/回）<br>産業革命中の都市で自国籍のみ生産可"
             },
             {
-                "recipe_name": "フルーツゼリーの作り方",
-                "product_name": "ゼリーのフルーツ添え",
+                "product_name": "フルーツゼリーの作り方",
+                "recipe_name": "ゼリーのフルーツ添え",
                 "item1_name": "木の実",
                 "item1_reqnum": "2",
                 "item2_name": "砂糖",
@@ -1436,23 +1436,23 @@
                 "recovery": "85",
                 "fatigue": "0",
                 "category": "Food/Scurvy",
-                "memo": ""
+                "memo": "壊血病回復<br>要 管理技術R12　備蓄品利用可（8700D＋ゼラチン1/回）<br>産業革命中の都市で自国籍のみ生産可"
             }
         ]
     },
     "生産技術書・鋳造応用編（鋳造スキル）": {
-        "get": "消耗品<br>要 管理技術R3　備蓄品利用可（69800D/回）<br>マンチェスターで常時生産可",
+        "get": "マンチェスターまたは産業革命中の都市(工場溶鉱炉/固定)",
         "list": [
             {
-                "recipe_name": "ブリキの製法",
-                "product_name": "ブリキ",
+                "product_name": "ブリキの製法",
+                "recipe_name": "ブリキ",
                 "item1_name": "スズ鉱石",
                 "item1_reqnum": "10",
                 "item2_name": "鋼",
                 "item2_reqnum": "10",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "鋳造",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1460,16 +1460,16 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "消耗品<br>要 管理技術R3　備蓄品利用可（69800D/回）<br>マンチェスターで常時生産可"
             }
         ]
     },
     "簡単ペットフード": {
-        "get": "ペット",
+        "get": "マルセイユ(調教師/固定)",
         "list": [
             {
-                "recipe_name": "トロピカルフードの作り方",
-                "product_name": "トロピカルフード",
+                "product_name": "トロピカルフードの作り方",
+                "recipe_name": "トロピカルフード",
                 "item1_name": "木の実",
                 "item1_reqnum": "5",
                 "item2_name": "ピーナッツ",
@@ -1484,11 +1484,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "ミックスフードの作り方",
-                "product_name": "ミックスフード",
+                "product_name": "ミックスフードの作り方",
+                "recipe_name": "ミックスフード",
                 "item1_name": "木の実",
                 "item1_reqnum": "5",
                 "item2_name": "ピーナッツ",
@@ -1503,11 +1503,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "リキッドフードの作り方",
-                "product_name": "リキッドフード",
+                "product_name": "リキッドフードの作り方",
+                "recipe_name": "リキッドフード",
                 "item1_name": "卵",
                 "item1_reqnum": "5",
                 "item2_name": "肉餌",
@@ -1522,16 +1522,16 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             }
         ]
     },
     "自宅生産（大量生産系やペットの餌は省略）": {
-        "get": "要：称号「時を知る者(14世紀)」",
+        "get": "アパルタメントメニューより副官へ指示",
         "list": [
             {
-                "recipe_name": "乾燥チーズの作り方",
-                "product_name": "アーロール",
+                "product_name": "乾燥チーズの作り方",
+                "recipe_name": "アーロール",
                 "item1_name": "乳",
                 "item1_reqnum": "50",
                 "item2_name": "",
@@ -1546,11 +1546,11 @@
                 "recovery": "15",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "牛肉の保存方法",
-                "product_name": "ボルツ",
+                "product_name": "牛肉の保存方法",
+                "recipe_name": "ボルツ",
                 "item1_name": "牛肉",
                 "item1_reqnum": "50",
                 "item2_name": "",
@@ -1565,11 +1565,11 @@
                 "recovery": "15",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "豚肉の包み蒸し",
-                "product_name": "ボーズ",
+                "product_name": "豚肉の包み蒸し",
+                "recipe_name": "ボーズ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "50",
                 "item2_name": "豚肉",
@@ -1584,11 +1584,11 @@
                 "recovery": "20",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "血を使ったソーセージ",
-                "product_name": "ザイダス",
+                "product_name": "血を使ったソーセージ",
+                "recipe_name": "ザイダス",
                 "item1_name": "ヒツジ",
                 "item1_reqnum": "30",
                 "item2_name": "ガーリック",
@@ -1603,11 +1603,11 @@
                 "recovery": "25",
                 "fatigue": "15",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "モンゴルの揚げ物",
-                "product_name": "ホーショール",
+                "product_name": "モンゴルの揚げ物",
+                "recipe_name": "ホーショール",
                 "item1_name": "牛肉",
                 "item1_reqnum": "50",
                 "item2_name": "植物油",
@@ -1622,11 +1622,11 @@
                 "recovery": "30",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "干し肉のスープ",
                 "product_name": "干し肉のスープ",
+                "recipe_name": "干し肉のスープ",
                 "item1_name": "牛肉",
                 "item1_reqnum": "50",
                 "item2_name": "タマネギ",
@@ -1641,11 +1641,11 @@
                 "recovery": "30",
                 "fatigue": "18",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "揚げたパンの作り方",
-                "product_name": "モンゴル風揚げパン",
+                "product_name": "揚げたパンの作り方",
+                "recipe_name": "モンゴル風揚げパン",
                 "item1_name": "乳",
                 "item1_reqnum": "40",
                 "item2_name": "砂糖",
@@ -1660,11 +1660,11 @@
                 "recovery": "30",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "モンゴルの麺料理",
-                "product_name": "ツォイバン",
+                "product_name": "モンゴルの麺料理",
+                "recipe_name": "ツォイバン",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "50",
                 "item2_name": "牛肉",
@@ -1679,11 +1679,11 @@
                 "recovery": "35",
                 "fatigue": "0",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "羊肉のスープ",
-                "product_name": "グリヤシ",
+                "product_name": "羊肉のスープ",
+                "recipe_name": "グリヤシ",
                 "item1_name": "ラード",
                 "item1_reqnum": "30",
                 "item2_name": "羊肉",
@@ -1698,11 +1698,11 @@
                 "recovery": "40",
                 "fatigue": "24",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "羊肉を使った麺料理",
-                "product_name": "ゴリルタイ・シュル",
+                "product_name": "羊肉を使った麺料理",
+                "recipe_name": "ゴリルタイ・シュル",
                 "item1_name": "羊肉",
                 "item1_reqnum": "60",
                 "item2_name": "小麦粉",
@@ -1717,11 +1717,11 @@
                 "recovery": "40",
                 "fatigue": "24",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "羊肉の塩ゆで",
-                "product_name": "チャナサン・マフ",
+                "product_name": "羊肉の塩ゆで",
+                "recipe_name": "チャナサン・マフ",
                 "item1_name": "羊肉",
                 "item1_reqnum": "40",
                 "item2_name": "塩",
@@ -1736,11 +1736,11 @@
                 "recovery": "45",
                 "fatigue": "27",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "ヤギの塩焼き",
-                "product_name": "ボードック",
+                "product_name": "ヤギの塩焼き",
+                "recipe_name": "ボードック",
                 "item1_name": "ヤギ",
                 "item1_reqnum": "30",
                 "item2_name": "塩",
@@ -1755,11 +1755,11 @@
                 "recovery": "50",
                 "fatigue": "30",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "午後の休憩用料理の作成",
-                "product_name": "午後のティーセット",
+                "product_name": "午後の休憩用料理の作成",
+                "recipe_name": "午後のティーセット",
                 "item1_name": "フォンダン・ミルクレープ",
                 "item1_reqnum": "10",
                 "item2_name": "マカロン",
@@ -1773,11 +1773,12 @@
                 "created": "8",
                 "recovery": "0",
                 "fatigue": "0",
-                "category": "Adjutant"
+                "category": "Adjutant",
+                "memo": "副官料理<br>要：称号「時を知る者(18世紀-3))"
             },
             {
-                "recipe_name": "羊肉と野菜の蒸し焼き",
-                "product_name": "ホルホグ",
+                "product_name": "羊肉と野菜の蒸し焼き",
+                "recipe_name": "ホルホグ",
                 "item1_name": "羊肉",
                 "item1_reqnum": "25",
                 "item2_name": "タマネギ",
@@ -1792,11 +1793,11 @@
                 "recovery": "50",
                 "fatigue": "30",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             },
             {
-                "recipe_name": "新鮮な馬肉料理",
-                "product_name": "馬のタルタルステーキ",
+                "product_name": "新鮮な馬肉料理",
+                "recipe_name": "馬のタルタルステーキ",
                 "item1_name": "ウマ",
                 "item1_reqnum": "30",
                 "item2_name": "卵",
@@ -1811,16 +1812,16 @@
                 "recovery": "65",
                 "fatigue": "39",
                 "category": "Food",
-                "memo": ""
+                "memo": "要：称号「時を知る者(14世紀)」"
             }
         ]
     },
     "調味料大全・秘境編（工芸スキル）": {
-        "get": "交易品",
+        "get": "堺(道具屋)、安平(道具屋)",
         "list": [
             {
-                "recipe_name": "餡の作り方",
-                "product_name": "餡",
+                "product_name": "餡の作り方",
+                "recipe_name": "餡",
                 "item1_name": "小豆",
                 "item1_reqnum": "2",
                 "item2_name": "砂糖",
@@ -1835,11 +1836,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "オイスターソースの製法",
-                "product_name": "オイスターソース",
+                "product_name": "オイスターソースの製法",
+                "recipe_name": "オイスターソース",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "1",
                 "item2_name": "カキ",
@@ -1854,11 +1855,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "コチュジャンの製法",
-                "product_name": "コチュジャン",
+                "product_name": "コチュジャンの製法",
+                "recipe_name": "コチュジャン",
                 "item1_name": "砂糖",
                 "item1_reqnum": "1",
                 "item2_name": "味噌",
@@ -1873,11 +1874,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "味噌の製法",
-                "product_name": "味噌",
+                "product_name": "味噌の製法",
+                "recipe_name": "味噌",
                 "item1_name": "大豆",
                 "item1_reqnum": "10",
                 "item2_name": "塩",
@@ -1892,18 +1893,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "黒酢の製法",
-                "product_name": "黒酢",
+                "product_name": "黒酢の製法",
+                "recipe_name": "黒酢",
                 "item1_name": "水稲",
                 "item1_reqnum": "15",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "13",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1911,23 +1912,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             }
         ]
     },
     "調味料大全（工芸スキル）": {
-        "get": "交易品",
+        "get": "パルマ(道具屋)",
         "list": [
             {
-                "recipe_name": "オリーブ油製法",
-                "product_name": "オリーブ油",
+                "product_name": "オリーブ油製法",
+                "recipe_name": "オリーブ油",
                 "item1_name": "オリーブ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1935,18 +1936,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ハーブビネガー製法",
-                "product_name": "ハーブビネガー",
+                "product_name": "ハーブビネガー製法",
+                "recipe_name": "ハーブビネガー",
                 "item1_name": "ホワイトビネガー",
                 "item1_reqnum": "1",
                 "item2_name": "タイム",
                 "item2_reqnum": "1",
                 "item3_name": "ローズマリー",
                 "item3_reqnum": "1",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1954,18 +1955,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ピーナッツ油製法",
-                "product_name": "ピーナッツ油",
+                "product_name": "ピーナッツ油製法",
+                "recipe_name": "ピーナッツ油",
                 "item1_name": "ピーナッツ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1973,18 +1974,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "砂糖製法",
-                "product_name": "砂糖",
+                "product_name": "砂糖製法",
+                "recipe_name": "砂糖",
                 "item1_name": "サトウキビ",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -1992,18 +1993,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "アーモンド油製法",
-                "product_name": "アーモンド油",
+                "product_name": "アーモンド油製法",
+                "recipe_name": "アーモンド油",
                 "item1_name": "アーモンド",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2011,18 +2012,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ハーブオイル製法",
-                "product_name": "ハーブオイル",
+                "product_name": "ハーブオイル製法",
+                "recipe_name": "ハーブオイル",
                 "item1_name": "ガーリック",
                 "item1_reqnum": "1",
                 "item2_name": "バジル",
                 "item2_reqnum": "1",
                 "item3_name": "植物油",
                 "item3_reqnum": "1",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2030,18 +2031,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ハーブソルト製法",
-                "product_name": "ハーブソルト",
+                "product_name": "ハーブソルト製法",
+                "recipe_name": "ハーブソルト",
                 "item1_name": "塩",
                 "item1_reqnum": "1",
                 "item2_name": "オレガノ",
                 "item2_reqnum": "1",
                 "item3_name": "パセリ",
                 "item3_reqnum": "1",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2049,18 +2050,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "リンゴ酢製法",
-                "product_name": "リンゴ酢",
+                "product_name": "リンゴ酢製法",
+                "recipe_name": "リンゴ酢",
                 "item1_name": "干しリンゴ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2068,18 +2069,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "ホワイトビネガー製法",
-                "product_name": "ホワイトビネガー",
+                "product_name": "ホワイトビネガー製法",
+                "recipe_name": "ホワイトビネガー",
                 "item1_name": "大麦",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2087,18 +2088,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ワインビネガー製法",
-                "product_name": "ワインビネガー",
+                "product_name": "ワインビネガー製法",
+                "recipe_name": "ワインビネガー",
                 "item1_name": "ワイン",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2106,18 +2107,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "製塩法",
-                "product_name": "塩",
+                "product_name": "製塩法",
+                "recipe_name": "塩",
                 "item1_name": "海水",
                 "item1_reqnum": "20",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2125,18 +2126,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ココナツビネガー",
                 "product_name": "ココナツビネガー",
+                "recipe_name": "ココナツビネガー",
                 "item1_name": "ココナツ",
                 "item1_reqnum": "4",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "8",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2144,16 +2145,16 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             }
         ]
     },
     "造船素材・調理室": {
-        "get": "造船部品",
+        "get": "ルアンダ(固定)",
         "list": [
             {
-                "recipe_name": "調理室の製法",
-                "product_name": "調理室",
+                "product_name": "調理室の製法",
+                "recipe_name": "調理室",
                 "item1_name": "魚肉",
                 "item1_reqnum": "30",
                 "item2_name": "小麦粉",
@@ -2168,23 +2169,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Ship",
-                "memo": ""
+                "memo": "造船部品"
             }
         ]
     },
     "酒造秘伝・第2巻（工芸スキル）": {
-        "get": "交易品",
+        "get": "ハバナ(投資)、モンペリエ(投資)",
         "list": [
             {
-                "recipe_name": "ヤシ酒の製法",
-                "product_name": "ヤシ酒",
+                "product_name": "ヤシ酒の製法",
+                "recipe_name": "ヤシ酒",
                 "item1_name": "ココナツ",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "6",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2192,18 +2193,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ラム酒の製法",
-                "product_name": "ラム酒",
+                "product_name": "ラム酒の製法",
+                "recipe_name": "ラム酒",
                 "item1_name": "サトウキビ",
                 "item1_reqnum": "4",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2211,18 +2212,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "シェリーの製法",
-                "product_name": "シェリー",
+                "product_name": "シェリーの製法",
+                "recipe_name": "シェリー",
                 "item1_name": "ブランデー",
                 "item1_reqnum": "1",
                 "item2_name": "干しブドウ",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "8",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2230,18 +2231,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "フルーツブランデー製法",
-                "product_name": "フルーツブランデー",
+                "product_name": "フルーツブランデー製法",
+                "recipe_name": "フルーツブランデー",
                 "item1_name": "干しリンゴ",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "9",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2249,18 +2250,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "テキーラ製法",
-                "product_name": "テキーラ",
+                "product_name": "テキーラ製法",
+                "recipe_name": "テキーラ",
                 "item1_name": "巨大な葉",
                 "item1_reqnum": "5",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "10",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2268,18 +2269,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "盟約の美酒製法",
-                "product_name": "盟約の美酒",
+                "product_name": "盟約の美酒製法",
+                "recipe_name": "盟約の美酒",
                 "item1_name": "ラム酒",
                 "item1_reqnum": "1",
                 "item2_name": "シェリー",
                 "item2_reqnum": "1",
                 "item3_name": "ミツバチの巣",
                 "item3_reqnum": "1",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "12",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2287,18 +2288,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "忠誠+20"
             },
             {
-                "recipe_name": "焼酎の製法",
-                "product_name": "焼酎",
+                "product_name": "焼酎の製法",
+                "recipe_name": "焼酎",
                 "item1_name": "水稲",
                 "item1_reqnum": "20",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "13",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2306,23 +2307,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             }
         ]
     },
     "酒造秘伝（工芸スキル）": {
-        "get": "交易品",
+        "get": "ハンブルグ(道具屋)、カリアリ(投資)",
         "list": [
             {
-                "recipe_name": "ビールの製法（ライ麦）",
-                "product_name": "ビール",
+                "product_name": "ビールの製法（ライ麦）",
+                "recipe_name": "ビール",
                 "item1_name": "ライ麦",
                 "item1_reqnum": "4",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2330,18 +2331,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ビールの製法（小麦）",
-                "product_name": "ビール",
+                "product_name": "ビールの製法（小麦）",
+                "recipe_name": "ビール",
                 "item1_name": "小麦",
                 "item1_reqnum": "4",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "2",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2349,18 +2350,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "アクアビット製法",
-                "product_name": "アクアビット",
+                "product_name": "アクアビット製法",
+                "recipe_name": "アクアビット",
                 "item1_name": "小麦",
                 "item1_reqnum": "7",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2368,18 +2369,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "ウォッカの製法（ライ麦）",
-                "product_name": "ウォッカ",
+                "product_name": "ウォッカの製法（ライ麦）",
+                "recipe_name": "ウォッカ",
                 "item1_name": "ライ麦",
                 "item1_reqnum": "8",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2387,18 +2388,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ウォッカの製法（大麦）",
-                "product_name": "ウォッカ",
+                "product_name": "ウォッカの製法（大麦）",
+                "recipe_name": "ウォッカ",
                 "item1_name": "大麦",
                 "item1_reqnum": "8",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2406,18 +2407,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ワインの製法",
-                "product_name": "ワイン",
+                "product_name": "ワインの製法",
+                "recipe_name": "ワイン",
                 "item1_name": "干しブドウ",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "3",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2425,18 +2426,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ウイスキー製法（ライ麦）",
-                "product_name": "ウイスキー",
+                "product_name": "ウイスキー製法（ライ麦）",
+                "recipe_name": "ウイスキー",
                 "item1_name": "ライ麦",
                 "item1_reqnum": "8",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2444,18 +2445,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "ブランデー製法",
-                "product_name": "ブランデー",
+                "product_name": "ブランデー製法",
+                "recipe_name": "ブランデー",
                 "item1_name": "ワイン",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2463,18 +2464,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "リキュール製法",
-                "product_name": "リキュール",
+                "product_name": "リキュール製法",
+                "recipe_name": "リキュール",
                 "item1_name": "木の実",
                 "item1_reqnum": "5",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2482,18 +2483,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品"
             },
             {
-                "recipe_name": "ウイスキー製法（小麦）",
-                "product_name": "ウイスキー",
+                "product_name": "ウイスキー製法（小麦）",
+                "recipe_name": "ウイスキー",
                 "item1_name": "小麦",
                 "item1_reqnum": "8",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2501,18 +2502,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             },
             {
-                "recipe_name": "ジンの製法",
-                "product_name": "ジン",
+                "product_name": "ジンの製法",
+                "recipe_name": "ジン",
                 "item1_name": "大麦",
                 "item1_reqnum": "4",
                 "item2_name": "木の実",
                 "item2_reqnum": "1",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "工芸",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2520,16 +2521,16 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Trade",
-                "memo": ""
+                "memo": "交易品（名産）"
             }
         ]
     },
     "陸戦小道具・調理その2": {
-        "get": "陸戦用<br>行商人（テノチティトラン）",
+        "get": "テノチティトラン(食堂の主人/固定)",
         "list": [
             {
-                "recipe_name": "スパイスソースの製法",
-                "product_name": "スパイスソース",
+                "product_name": "スパイスソースの製法",
+                "recipe_name": "スパイスソース",
                 "item1_name": "オールスパイス",
                 "item1_reqnum": "1",
                 "item2_name": "唐辛子",
@@ -2544,11 +2545,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>行商人（テノチティトラン）"
             },
             {
-                "recipe_name": "マラクジャジュースの製法",
-                "product_name": "マラクジャジュース",
+                "product_name": "マラクジャジュースの製法",
+                "recipe_name": "マラクジャジュース",
                 "item1_name": "ココナツ",
                 "item1_reqnum": "1",
                 "item2_name": "奇妙な実",
@@ -2563,11 +2564,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>行商人（テノチティトラン）"
             },
             {
-                "recipe_name": "マラクジャボトルの製法",
-                "product_name": "マラクジャボトル",
+                "product_name": "マラクジャボトルの製法",
+                "recipe_name": "マラクジャボトル",
                 "item1_name": "ココナツ",
                 "item1_reqnum": "2",
                 "item2_name": "奇妙な実",
@@ -2582,16 +2583,16 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>行商人（テノチティトラン）"
             }
         ]
     },
     "陸戦用小道具・調理の書": {
-        "get": "陸戦用<br>パナマ運河勅命クエスト「運河開拓先発隊への褒賞」（5本）<br>道具屋（中南米開拓地・アゾレス・テノチティトラン・ナッソー・<br>サンアントニオ・バイーア・ブエノスアイレス・リオデジャネイロ）",
+        "get": "ポルトベロ(投資)、ブエノスアイレス(投資)",
         "list": [
             {
-                "recipe_name": "タヒボジュースの製法",
-                "product_name": "タヒボジュース",
+                "product_name": "タヒボジュースの製法",
+                "recipe_name": "タヒボジュース",
                 "item1_name": "ココナツ",
                 "item1_reqnum": "1",
                 "item2_name": "巨大な葉",
@@ -2606,11 +2607,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>パナマ運河勅命クエスト「運河開拓先発隊への褒賞」（5本）<br>道具屋（中南米開拓地・アゾレス・テノチティトラン・ナッソー・<br>サンアントニオ・バイーア・ブエノスアイレス・リオデジャネイロ）"
             },
             {
-                "recipe_name": "強壮剤の製法",
-                "product_name": "強壮剤",
+                "product_name": "強壮剤の製法",
+                "recipe_name": "強壮剤",
                 "item1_name": "コーヒー",
                 "item1_reqnum": "1",
                 "item2_name": "草",
@@ -2625,11 +2626,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>中南米西岸勅命クエスト「先遣隊への慰労品」（5本）<br>道具屋（中南米開拓地・アゾレス・テノチティトラン・ナッソー・<br>サンアントニオ・バイーア・ブエノスアイレス・リオデジャネイロ・<br>マラッカ・ジャカルタ）"
             },
             {
-                "recipe_name": "スーマジュースの製法",
-                "product_name": "スーマジュース",
+                "product_name": "スーマジュースの製法",
+                "recipe_name": "スーマジュース",
                 "item1_name": "ココナツ",
                 "item1_reqnum": "1",
                 "item2_name": "奇妙な実",
@@ -2644,11 +2645,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>行商人（ポルトベロ・ヴェラクルス・リオデジャネイロ・バイーア）"
             },
             {
-                "recipe_name": "ペッパーソースの製法",
-                "product_name": "チリペッパーソース",
+                "product_name": "ペッパーソースの製法",
+                "recipe_name": "チリペッパーソース",
                 "item1_name": "唐辛子",
                 "item1_reqnum": "1",
                 "item2_name": "強壮剤",
@@ -2663,11 +2664,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>行商人（サントドミンゴ・ハバナ・ポルトベロ・ヴェラクルス）"
             },
             {
-                "recipe_name": "タヒボボトルの製法",
-                "product_name": "タヒボボトル",
+                "product_name": "タヒボボトルの製法",
+                "recipe_name": "タヒボボトル",
                 "item1_name": "ココナツ",
                 "item1_reqnum": "2",
                 "item2_name": "巨大な葉",
@@ -2682,11 +2683,11 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>道具屋（中南米開拓地・アゾレス・テノチティトラン）"
             },
             {
-                "recipe_name": "スーマボトルの製法",
-                "product_name": "スーマボトル",
+                "product_name": "スーマボトルの製法",
+                "recipe_name": "スーマボトル",
                 "item1_name": "コココナツ",
                 "item1_reqnum": "2",
                 "item2_name": "奇妙な実",
@@ -2701,23 +2702,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Item",
-                "memo": ""
+                "memo": "陸戦用<br>行商人（サントドミンゴ・ハバナ・リオデジャネイロ・バイーア）"
             }
         ]
     },
     "餌付け入門（保管スキル）": {
-        "get": "ペット",
+        "get": "ロンドン(調教師/固定)",
         "list": [
             {
-                "recipe_name": "乾草の製法",
-                "product_name": "乾草",
+                "product_name": "乾草の製法",
+                "recipe_name": "乾草",
                 "item1_name": "草",
                 "item1_reqnum": "20",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "4",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2725,18 +2726,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "魚介類の保存法",
-                "product_name": "鮮魚",
+                "product_name": "魚介類の保存法",
+                "recipe_name": "鮮魚",
                 "item1_name": "アジ",
                 "item1_reqnum": "3",
                 "item2_name": "ヤリイカ",
                 "item2_reqnum": "3",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "5",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2744,23 +2745,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             }
         ]
     },
     "餌付け達人（保管スキル）": {
-        "get": "ペット",
+        "get": "リスボン(調教師/固定)",
         "list": [
             {
-                "recipe_name": "飼葉の製法",
-                "product_name": "飼葉",
+                "product_name": "飼葉の製法",
+                "recipe_name": "飼葉",
                 "item1_name": "カラス麦",
                 "item1_reqnum": "5",
                 "item2_name": "ニンジン",
                 "item2_reqnum": "2",
                 "item3_name": "乾草",
                 "item3_reqnum": "1",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "8",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2768,18 +2769,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "良質葉の選別法（ユーカリ）",
-                "product_name": "ユーカリ葉",
+                "product_name": "良質葉の選別法（ユーカリ）",
+                "recipe_name": "ユーカリ葉",
                 "item1_name": "ユーカリ",
                 "item1_reqnum": "3",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "9",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2787,18 +2788,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "餌昆虫の飼育法",
-                "product_name": "混合餌（昆虫）",
+                "product_name": "餌昆虫の飼育法",
+                "recipe_name": "混合餌（昆虫）",
                 "item1_name": "生餌（コオロギ）",
                 "item1_reqnum": "1",
                 "item2_name": "生餌（アリ）",
                 "item2_reqnum": "1",
                 "item3_name": "生餌（ミミズ）",
                 "item3_reqnum": "1",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "10",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2806,18 +2807,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "魚介類の飼育法",
-                "product_name": "活魚",
+                "product_name": "魚介類の飼育法",
+                "recipe_name": "活魚",
                 "item1_name": "イワシ",
                 "item1_reqnum": "3",
                 "item2_name": "タコ",
                 "item2_reqnum": "2",
                 "item3_name": "エビ",
                 "item3_reqnum": "1",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "10",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2825,18 +2826,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "良質葉の選別法（竹）",
-                "product_name": "竹葉",
+                "product_name": "良質葉の選別法（竹）",
+                "recipe_name": "竹葉",
                 "item1_name": "竹",
                 "item1_reqnum": "1",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "14",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2844,23 +2845,23 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             }
         ]
     },
     "餌動物の調教術（保管スキル）": {
-        "get": "ペット",
+        "get": "セビリア(調教師/固定)",
         "list": [
             {
-                "recipe_name": "鮮度の保ち方（アリ）",
-                "product_name": "生餌（アリ）",
+                "product_name": "鮮度の保ち方（アリ）",
+                "recipe_name": "生餌（アリ）",
                 "item1_name": "アリ",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2868,18 +2869,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "鮮度の保ち方（コオロギ）",
-                "product_name": "生餌（コオロギ）",
+                "product_name": "鮮度の保ち方（コオロギ）",
+                "recipe_name": "生餌（コオロギ）",
                 "item1_name": "コオロギ",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2887,18 +2888,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "鮮度の保ち方（ネズミ）",
-                "product_name": "生餌（ネズミ）",
+                "product_name": "鮮度の保ち方（ネズミ）",
+                "recipe_name": "生餌（ネズミ）",
                 "item1_name": "ネズミ",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2906,18 +2907,18 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             },
             {
-                "recipe_name": "鮮度の保ち方（ミミズ）",
-                "product_name": "生餌（ミミズ）",
+                "product_name": "鮮度の保ち方（ミミズ）",
+                "recipe_name": "生餌（ミミズ）",
                 "item1_name": "ミミズ",
                 "item1_reqnum": "2",
                 "item2_name": "",
                 "item2_reqnum": "",
                 "item3_name": "",
                 "item3_reqnum": "",
-                "req_name1": "調理",
+                "req_name1": "保管",
                 "req_rank1": "7",
                 "req_name2": "",
                 "req_rank2": "",
@@ -2925,7 +2926,7 @@
                 "recovery": "0",
                 "fatigue": "0",
                 "category": "Pet",
-                "memo": ""
+                "memo": "ペット"
             }
         ]
     }

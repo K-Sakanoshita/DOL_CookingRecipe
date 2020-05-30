@@ -145,11 +145,11 @@ var Recipe = (function () {
 					HTML += "<tr>"								// 1行目開始
 
 					if (!params.sort && !params.mobile && idx == 0) {		// 非ソート&PC時&1行目はレシピ帳のタイトルを表示
-						HTML += `<td rowspan="${params.data.length * 2}"><a onclick="Cooking.search('${data.book_name}');">${data.book_name}</a><br>`;
+						HTML += `<td rowspan="${params.data.length * 3}"><a onclick="Cooking.search('${data.book_name}');">${data.book_name}</a><br>`;
 						HTML += "<span class='get'>入手:" + data.get + "</span></td>\n";
 					}
 
-					HTML += '<td class="icon" rowspan="2">';	// 完成品アイコンの表示
+					HTML += '<td class="icon" rowspan="3">';	// 完成品アイコンの表示
 					// HTML += '<img class="icon" src="./icon/" + Recipe.icon_file(data.product_name) + ".png" onerror="this.onerror = null; this.src = \'./image/noimage.png\';">'
 					HTML += `<img class="icon" src="./icon/${Recipe.icon_file(data.product_name)}.png">`;
 					HTML += '</td>';
@@ -168,7 +168,11 @@ var Recipe = (function () {
 					});
 					HTML += "<td><span class='recipe'>" + MateHTML.slice(0, -2) + "</span></td>";
 					HTML += `<td class="Rank">${data.req_rank1}</td><td class="Volume">${data.created}</td><td class="Recovery">${data.recovery}</td>`;					// ランク,生産量,行動回復,疲労回復,その他の表示
-					HTML += '</tr>\n';	// 2行目終了
+					HTML += '</tr>\n<tr>';	// 2行目終了&3行目開始
+
+					HTML += `<td colspan="5"><span class="recipe">備考: ${data.memo}</span></td>`;
+					HTML += '</tr>\n';	// 3行目終了
+
 				});
 				HTML += '</table>\n';	// テーブル終了
 				return HTML;
