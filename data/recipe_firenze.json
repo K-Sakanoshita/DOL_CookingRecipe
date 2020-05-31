@@ -3,8 +3,8 @@
         "get": "フィレンツェ(ロレンツォ・メディチ/モニカ/アニータ/固定)",
         "list": [
             {
-                "product_name": "マカロンの作り方",
-                "recipe_name": "マカロン",
+                "recipe_name": "マカロンの作り方",
+                "product_name": "マカロン",
                 "item1_name": "ジャム",
                 "item1_reqnum": "2",
                 "item2_name": "蜂蜜",
@@ -22,8 +22,8 @@
                 "memo": "貢献度80消費<br>メモリアルアルバム「世界各地の絶品甘味」"
             },
             {
-                "product_name": "フィナンシェの作り方",
-                "recipe_name": "フィナンシェ",
+                "recipe_name": "フィナンシェの作り方",
+                "product_name": "フィナンシェ",
                 "item1_name": "アーモンド油",
                 "item1_reqnum": "2",
                 "item2_name": "砂糖",
@@ -41,8 +41,8 @@
                 "memo": "貢献度80消費"
             },
             {
-                "product_name": "フィレンツェ風肉料理",
-                "recipe_name": "コトレッタ",
+                "recipe_name": "フィレンツェ風肉料理",
+                "product_name": "コトレッタ",
                 "item1_name": "牛肉",
                 "item1_reqnum": "3",
                 "item2_name": "トマト",
@@ -60,8 +60,8 @@
                 "memo": "貢献度80消費"
             },
             {
-                "product_name": "フルーツソースの作り方",
-                "recipe_name": "フルーツソース",
+                "recipe_name": "フルーツソースの作り方",
+                "product_name": "フルーツソース",
                 "item1_name": "ワイン",
                 "item1_reqnum": "1",
                 "item2_name": "蜂蜜",
@@ -79,8 +79,8 @@
                 "memo": "交易品/工芸スキル/貢献度200消費"
             },
             {
-                "product_name": "冷たいお菓子の保存法",
-                "recipe_name": "アーモンドシャーベット",
+                "recipe_name": "冷たいお菓子の保存法",
+                "product_name": "アーモンドシャーベット",
                 "item1_name": "アーモンド",
                 "item1_reqnum": "10",
                 "item2_name": "硝石",
@@ -103,8 +103,8 @@
         "get": "フィレンツェ(商工会議所 調理職人/固定)",
         "list": [
             {
-                "product_name": "じゃがいものケーキ",
-                "recipe_name": "ポテトケーキ",
+                "recipe_name": "じゃがいものケーキ",
+                "product_name": "ポテトケーキ",
                 "item1_name": "ジャガイモ",
                 "item1_reqnum": "3",
                 "item2_name": "卵",
@@ -122,8 +122,8 @@
                 "memo": "貢献度20消費"
             },
             {
-                "product_name": "そら豆の揚げ物",
-                "recipe_name": "そら豆コロッケ",
+                "recipe_name": "そら豆の揚げ物",
+                "product_name": "そら豆コロッケ",
                 "item1_name": "そら豆",
                 "item1_reqnum": "5",
                 "item2_name": "小麦粉",
@@ -141,8 +141,8 @@
                 "memo": "貢献度10消費"
             },
             {
-                "product_name": "アジのバター焼き",
-                "recipe_name": "アジのムニエル",
+                "recipe_name": "アジのバター焼き",
+                "product_name": "アジのムニエル",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "1",
                 "item2_name": "バター",
@@ -160,8 +160,8 @@
                 "memo": "貢献度10消費"
             },
             {
-                "product_name": "アラビアの甘いデザート",
-                "recipe_name": "カターイフ",
+                "recipe_name": "アラビアの甘いデザート",
+                "product_name": "カターイフ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "3",
                 "item2_name": "蜂蜜",
@@ -179,8 +179,8 @@
                 "memo": "艦隊効果/貢献度20消費"
             },
             {
-                "product_name": "オリーブのパイ",
                 "recipe_name": "オリーブのパイ",
+                "product_name": "オリーブのパイ",
                 "item1_name": "オリーブ",
                 "item1_reqnum": "4",
                 "item2_name": "パイ生地",
@@ -198,8 +198,8 @@
                 "memo": "貢献度10消費"
             },
             {
-                "product_name": "シタビラメのバター焼き",
                 "recipe_name": "シタビラメのバター焼き",
+                "product_name": "シタビラメのバター焼き",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "1",
                 "item2_name": "バター",
@@ -217,8 +217,8 @@
                 "memo": "貢献度10消費"
             },
             {
-                "product_name": "スズキのパイ包み焼き",
                 "recipe_name": "スズキのパイ包み焼き",
+                "product_name": "スズキのパイ包み焼き",
                 "item1_name": "パイ生地",
                 "item1_reqnum": "2",
                 "item2_name": "バター",
@@ -236,8 +236,8 @@
                 "memo": "貢献度13消費"
             },
             {
-                "product_name": "ソーセージのグラタン",
                 "recipe_name": "ソーセージのグラタン",
+                "product_name": "ソーセージのグラタン",
                 "item1_name": "ソーセージ",
                 "item1_reqnum": "3",
                 "item2_name": "チーズ",
@@ -255,8 +255,8 @@
                 "memo": "貢献度15消費"
             },
             {
-                "product_name": "トルコの詰め物料理",
-                "recipe_name": "サルマ",
+                "recipe_name": "トルコの詰め物料理",
+                "product_name": "サルマ",
                 "item1_name": "タマネギ",
                 "item1_reqnum": "2",
                 "item2_name": "オリーブ油",
@@ -274,8 +274,8 @@
                 "memo": "貢献度15消費"
             },
             {
-                "product_name": "パン入りオニオンスープ",
-                "recipe_name": "オニオングラタンスープ",
+                "recipe_name": "パン入りオニオンスープ",
+                "product_name": "オニオングラタンスープ",
                 "item1_name": "チーズ",
                 "item1_reqnum": "2",
                 "item2_name": "ライ麦パン",
@@ -293,8 +293,8 @@
                 "memo": "貢献度30消費"
             },
             {
-                "product_name": "フルーツチーズケーキ",
                 "recipe_name": "フルーツチーズケーキ",
+                "product_name": "フルーツチーズケーキ",
                 "item1_name": "フルーツソース",
                 "item1_reqnum": "1",
                 "item2_name": "チーズケーキ",
@@ -312,8 +312,8 @@
                 "memo": "艦隊効果/貢献度30消費"
             },
             {
-                "product_name": "ベーコンのピッツァ",
                 "recipe_name": "ベーコンのピッツァ",
+                "product_name": "ベーコンのピッツァ",
                 "item1_name": "チーズ",
                 "item1_reqnum": "1",
                 "item2_name": "ベーコン",
@@ -331,8 +331,8 @@
                 "memo": "貢献度30消費"
             },
             {
-                "product_name": "北欧風チーズケーキ",
-                "recipe_name": "オストカーカ",
+                "recipe_name": "北欧風チーズケーキ",
+                "product_name": "オストカーカ",
                 "item1_name": "チーズ",
                 "item1_reqnum": "3",
                 "item2_name": "小麦粉",
@@ -350,8 +350,8 @@
                 "memo": "貢献度20消費"
             },
             {
-                "product_name": "果物入りパン（りんご）",
-                "recipe_name": "りんごのパネトーネ",
+                "recipe_name": "果物入りパン（りんご）",
+                "product_name": "りんごのパネトーネ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "3",
                 "item2_name": "バター",
@@ -369,8 +369,8 @@
                 "memo": "貢献度20消費"
             },
             {
-                "product_name": "果物入りパン（アンズ）",
-                "recipe_name": "アンズのパネトーネ",
+                "recipe_name": "果物入りパン（アンズ）",
+                "product_name": "アンズのパネトーネ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "3",
                 "item2_name": "バター",
@@ -388,8 +388,8 @@
                 "memo": "貢献度20消費"
             },
             {
-                "product_name": "果物入りパン（プルーン）",
-                "recipe_name": "プルーンのパネトーネ",
+                "recipe_name": "果物入りパン（プルーン）",
+                "product_name": "プルーンのパネトーネ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "3",
                 "item2_name": "バター",
@@ -407,8 +407,8 @@
                 "memo": "貢献度20消費"
             },
             {
-                "product_name": "海草入り揚げパン",
                 "recipe_name": "海草入り揚げパン",
+                "product_name": "海草入り揚げパン",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "2",
                 "item2_name": "オリーブ油",
@@ -426,8 +426,8 @@
                 "memo": "貢献度25消費"
             },
             {
-                "product_name": "温かいデザートの作り方",
-                "recipe_name": "フルーツグラタン",
+                "recipe_name": "温かいデザートの作り方",
+                "product_name": "フルーツグラタン",
                 "item1_name": "卵",
                 "item1_reqnum": "2",
                 "item2_name": "乳",
@@ -445,8 +445,8 @@
                 "memo": "壊血病回復/貢献度25消費"
             },
             {
-                "product_name": "焼き菓子とシャーベット",
-                "recipe_name": "ビスコチョシャーベット",
+                "recipe_name": "焼き菓子とシャーベット",
+                "product_name": "ビスコチョシャーベット",
                 "item1_name": "ビスコチョ",
                 "item1_reqnum": "2",
                 "item2_name": "アーモンドシャーベット",
@@ -464,8 +464,8 @@
                 "memo": "艦隊効果/貢献度30消費"
             },
             {
-                "product_name": "祭事用ブリオッシュ",
                 "recipe_name": "祭事用ブリオッシュ",
+                "product_name": "祭事用ブリオッシュ",
                 "item1_name": "干しイチゴ",
                 "item1_reqnum": "1",
                 "item2_name": "りんごのコンポート",
@@ -483,8 +483,8 @@
                 "memo": "貢献度40消費"
             },
             {
-                "product_name": "詰め物をしたパスタ",
-                "recipe_name": "ラビオリ",
+                "recipe_name": "詰め物をしたパスタ",
+                "product_name": "ラビオリ",
                 "item1_name": "チーズ",
                 "item1_reqnum": "2",
                 "item2_name": "小麦粉",
@@ -502,8 +502,8 @@
                 "memo": "貢献度20消費"
             },
             {
-                "product_name": "豚のロースト",
-                "recipe_name": "豚肉のロースト",
+                "recipe_name": "豚のロースト",
+                "product_name": "豚肉のロースト",
                 "item1_name": "豚肉",
                 "item1_reqnum": "1",
                 "item2_name": "オリーブ油",
@@ -521,8 +521,8 @@
                 "memo": "貢献度20消費"
             },
             {
-                "product_name": "豚のローストゆで卵添え",
-                "recipe_name": "豚肉のローストゆで卵添え",
+                "recipe_name": "豚のローストゆで卵添え",
+                "product_name": "豚肉のローストゆで卵添え",
                 "item1_name": "ゆで卵",
                 "item1_reqnum": "1",
                 "item2_name": "豚肉のロースト",
@@ -540,8 +540,8 @@
                 "memo": "貢献度25消費"
             },
             {
-                "product_name": "香草と鮭のグラタン",
                 "recipe_name": "香草と鮭のグラタン",
+                "product_name": "香草と鮭のグラタン",
                 "item1_name": "チーズ",
                 "item1_reqnum": "2",
                 "item2_name": "バジル",
@@ -559,8 +559,8 @@
                 "memo": "貢献度15消費"
             },
             {
-                "product_name": "香草風味のパン",
-                "recipe_name": "香草風味のフォカッチャ",
+                "recipe_name": "香草風味のパン",
+                "product_name": "香草風味のフォカッチャ",
                 "item1_name": "小麦粉",
                 "item1_reqnum": "1",
                 "item2_name": "オリーブ油",
@@ -578,8 +578,8 @@
                 "memo": "貢献度15消費"
             },
             {
-                "product_name": "鮭のパイ包み焼き",
                 "recipe_name": "鮭のパイ包み焼き",
+                "product_name": "鮭のパイ包み焼き",
                 "item1_name": "パイ生地",
                 "item1_reqnum": "2",
                 "item2_name": "バター",
