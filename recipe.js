@@ -6,7 +6,7 @@ var Recipe = (function () {
 		master: (json) => {				// レシピ帳Jsonをセット or 返す
 			if (json !== undefined) {	// データ形式:配列 レシビ帳名と入手は配列へ挿入
 				Object.keys(json).forEach((bookname) => {
-					let bookdata = { "book_name": bookname, "get": json[bookname].get };
+					let bookdata = { "book_name": bookname, "get": json[bookname].get, "icon": json[bookname].icon };
 					for (let key in json[bookname].list) {
 						RecipeBooks.push(Object.assign(json[bookname].list[key], bookdata));
 					};
@@ -120,61 +120,49 @@ var Recipe = (function () {
 
 				if (!params.sort && params.mobile) {			// 非ソート&モバイル時はレシピ帳のタイトルを表示
 					data = params.data[0];
-					HTML += "<hr>\n<h3><a onclick=\"Cooking.search('" + data.book_name + "');\">" + data.book_name + "</a><br>";
+					HTML += `<hr>\n<h3><img class="float" src="./icon/${data.icon }.png" onerror="this.onerror = null; this.src='./icon/noimage.png';"><a onclick="Cooking.search('${data.book_name}');">${data.book_name}</a><br>`;
 					HTML += "<span class='get'>入手:" + data.get + "</span></h3>\n";
 				}
 				if (params.mobile || params.sort) {
-					HTML += `<table>
-								<colgroup><col class="s15"><col class="s55"><col class="s10"><col class="s10"><col class="s10"></colgroup>	
-	  							<tr><th colspan="2">料理</th>
-								<th>Rank</th>
-								<th>数量</th>
-								<th>行動</th></tr>\n`;				// テーブル開始
+					HTML += `<table><colgroup><col class="s15"><col class="s55"></colgroup>\n`;							// mobileテーブル開始
 				} else {
-					HTML += `<hr>\n<table>
-								<colgroup><col class="s30"><col class="s10"><col class="s40"><col class="s10"><col class="s10"><col class="s10"></colgroup>	
-								<tr><th>レシピ帳</th>
-								<th colspan="2">料理</th>
-								<th>Rank</th>
-								<th>数量</th>
-								<th>行動</th></tr>\n`;				// テーブル開始
+					HTML += `<hr>\n<table><colgroup><col class="s20"><col class="s10"><col class="s50"></colgroup>\n`;	// テーブル開始
 				};
 
 				Object.keys(params.data).forEach(idx => {
 					data = params.data[idx];
-					HTML += "<tr>"								// 1行目開始
+					HTML += "<tr>"											// 1行目開始
 
 					if (!params.sort && !params.mobile && idx == 0) {		// 非ソート&PC時&1行目はレシピ帳のタイトルを表示
-						HTML += `<td rowspan="${params.data.length * 3}"><a onclick="Cooking.search('${data.book_name}');">${data.book_name}</a><br>`;
+						HTML += `<td rowspan="${params.data.length * 3}"><img src="./icon/${data.icon}.png" onerror="this.onerror = null; this.src='./icon/noimage.png';"><br><a onclick="Cooking.search('${data.book_name}');">${data.book_name}</a><br>`;
 						HTML += "<span class='get'>入手:" + data.get + "</span></td>\n";
 					}
 
-					HTML += '<td class="icon" rowspan="3">';	// 完成品アイコンの表示
-					// HTML += '<img class="icon" src="./icon/" + Recipe.icon_file(data.product_name) + ".png" onerror="this.onerror = null; this.src = \'./image/noimage.png\';">'
-					HTML += `<img class="icon" src="./icon/${Recipe.icon_file(data.product_name)}.png">`;
-					HTML += '</td>';
-					HTML += `<td colspan="4"><a onclick="Cooking.search('${data.product_name}');">${data.product_name}</a>`;		// 完成品とレシピ名の表示
-					HTML += '<span class="recipe"> / レシピ名: <a onclick="Cooking.search(\'' + data.recipe_name + '\');">' + data.recipe_name + '</a></span></td>';
-					HTML += '</tr>\n<tr>';						// 1行目終了&2行目開始
+					HTML += '<td class="icon" rowspan="3">';		// 完成品アイコンの表示
+					HTML += `<img class="icon" src="./icon/${Recipe.icon_file(data.product_name)}.png" onerror="this.onerror = null; this.src='./icon/noimage.png';">`;
+					HTML += data.recovery > 0 ? `<br>+${data.recovery}` : "";
+					//HTML += `<img class="icon" src="./icon/${Recipe.icon_file(data.product_name)}.png"><br>+${data.recovery}`;
+					HTML += `</td><td><a onclick="Cooking.search('${data.product_name}');">${data.product_name}</a>(Rank:${data.req_rank1})`;		// 完成品とレシピ名の表示
+					HTML += `<span class="recipe nobr"> / レシピ: <a onclick="Cooking.search('${data.recipe_name}');">${data.recipe_name}</a></span></td>`;
+					HTML += '</tr>\n<tr>';							// 1行目終了&2行目開始
 
-					let MateHTML = "材料: ";					// 材料の表示
-					let item_name = [data.item1_name, data.item2_name, data.item3_name];
-					let item_rnum = [data.item1_reqnum, data.item2_reqnum, data.item3_reqnum];
+					let MateHTML = "";								// 材料の表示
+					let item_name = [data.item1_name, data.item2_name, data.item3_name].filter(v => v !== "");
+					let item_rnum = [data.item1_reqnum, data.item2_reqnum, data.item3_reqnum].filter(v => v !== "");
 					item_name.forEach((mkey, midx) => {
-						if (mkey !== "") {
-							let matename = mkey + "(" + item_rnum[midx] + ")";
-							MateHTML += `<a onclick="Cooking.search('${mkey}');">${matename}</a>, `;
-						};
+						let matename = mkey + "(" + item_rnum[midx] + ")";
+						let alink = `<a onclick="Cooking.search('${mkey}');">${matename}</a>`;
+						MateHTML += `<span class='recipe'>${alink}</span>, `;
+						MateHTML = item_name.length == midx + 1 ? MateHTML.slice(0, -2) : MateHTML;
 					});
-					HTML += "<td><span class='recipe'>" + MateHTML.slice(0, -2) + "</span></td>";
-					HTML += `<td class="Rank">${data.req_rank1}</td><td class="Volume">${data.created}</td><td class="Recovery">${data.recovery}</td>`;					// ランク,生産量,行動回復,疲労回復,その他の表示
-					HTML += '</tr>\n<tr>';	// 2行目終了&3行目開始
+					HTML += `<td><span class='recipe nobr'>材料: </span>${MateHTML} <span class='recipe nobr'> / 生産数: ${data.created}</span></td>`;
+					HTML += '</tr>\n<tr>';							// 2行目終了&3行目開始
 
-					HTML += `<td colspan="5"><span class="recipe">備考: ${data.memo}</span></td>`;
-					HTML += '</tr>\n';	// 3行目終了
+					HTML += `<td><span class="recipe">備考: ${data.memo}</span></td>`;
+					HTML += '</tr>\n';								// 3行目終了
 
 				});
-				HTML += '</table>\n';	// テーブル終了
+				HTML += '</table>\n';								// テーブル終了
 				return HTML;
 			}
 		}
